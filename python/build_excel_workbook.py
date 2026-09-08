@@ -98,13 +98,38 @@ def create_workbook():
     ws_dash["E4"].font = Font(name="Calibri", size=10, italic=True, color="2563EB")
     ws_dash["E4"].alignment = Alignment(vertical="center")
 
-    # Dynamic KPI Cards (Row 6 - 8) based on Year in C4
+    # Interactive Month Filter (Row 5)
+    ws_dash["B5"] = "SELECT MONTH FILTER:"
+    ws_dash["B5"].font = bold_font
+    ws_dash["B5"].alignment = Alignment(horizontal="right", vertical="center")
+
+    ws_dash.merge_cells("C5:D5")
+    filter_m_cell = ws_dash["C5"]
+    filter_m_cell.value = "All Months"
+    filter_m_cell.font = Font(name="Calibri", size=12, bold=True, color="FFFFFF")
+    filter_m_cell.fill = PatternFill(start_color="10B981", end_color="10B981", fill_type="solid")
+    filter_m_cell.alignment = Alignment(horizontal="center", vertical="center")
+
+    dv_month = DataValidation(type="list", formula1='"All Months,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"', allow_blank=False)
+    dv_month.error = 'Please select a month or All Months'
+    dv_month.errorTitle = 'Invalid Month'
+    dv_month.prompt = 'Click dropdown to select specific month or All Months'
+    dv_month.promptTitle = 'Interactive Month Selector'
+    ws_dash.add_data_validation(dv_month)
+    dv_month.add(filter_m_cell)
+
+    ws_dash.merge_cells("E5:K5")
+    ws_dash["E5"] = "<- Select month (or All Months) to filter financial records and KPIs!"
+    ws_dash["E5"].font = Font(name="Calibri", size=10, italic=True, color="10B981")
+    ws_dash["E5"].alignment = Alignment(vertical="center")
+
+    # Dynamic KPI Cards (Row 7 - 8) based on Year in C4 and Month in C5
     kpis = [
-        ("B6:C6", "B7:C7", "TOTAL GROSS REVENUE", "=IF(C4=\"All Years\", SUM('Sales Analysis'!E4:E39), SUMIF('Sales Analysis'!B4:B39, C4, 'Sales Analysis'!E4:E39))", "₹ #,##0"),
-        ("D6:E6", "D7:E7", "TOTAL NET PROFIT", "=IF(C4=\"All Years\", SUM('Sales Analysis'!F4:F39), SUMIF('Sales Analysis'!B4:B39, C4, 'Sales Analysis'!F4:F39))", "₹ #,##0"),
-        ("F6:G6", "F7:G7", "TOTAL ORDERS", "=IF(C4=\"All Years\", SUM('Sales Analysis'!D4:D39), SUMIF('Sales Analysis'!B4:B39, C4, 'Sales Analysis'!D4:D39))", "#,##0"),
-        ("H6:I6", "H7:I7", "AVERAGE ORDER VALUE (AOV)", "=B7/F7", "₹ #,##0.00"),
-        ("J6:K6", "J7:K7", "OVERALL PROFIT MARGIN", "=D7/B7", "0.00%")
+        ("B7:C7", "B8:C8", "TOTAL GROSS REVENUE", "=IF(C5=\"All Months\", IF(C4=\"All Years\", SUM('Sales Analysis'!E4:E39), SUMIF('Sales Analysis'!B4:B39, C4, 'Sales Analysis'!E4:E39)), IF(C4=\"All Years\", SUMIF('Sales Analysis'!C4:C39, C5, 'Sales Analysis'!E4:E39), SUMIFS('Sales Analysis'!E4:E39, 'Sales Analysis'!B4:B39, C4, 'Sales Analysis'!C4:C39, C5)))", "₹ #,##0"),
+        ("D7:E7", "D8:E8", "TOTAL NET PROFIT", "=IF(C5=\"All Months\", IF(C4=\"All Years\", SUM('Sales Analysis'!F4:F39), SUMIF('Sales Analysis'!B4:B39, C4, 'Sales Analysis'!F4:F39)), IF(C4=\"All Years\", SUMIF('Sales Analysis'!C4:C39, C5, 'Sales Analysis'!F4:F39), SUMIFS('Sales Analysis'!F4:F39, 'Sales Analysis'!B4:B39, C4, 'Sales Analysis'!C4:C39, C5)))", "₹ #,##0"),
+        ("F7:G7", "F8:G8", "TOTAL ORDERS", "=IF(C5=\"All Months\", IF(C4=\"All Years\", SUM('Sales Analysis'!D4:D39), SUMIF('Sales Analysis'!B4:B39, C4, 'Sales Analysis'!D4:D39)), IF(C4=\"All Years\", SUMIF('Sales Analysis'!C4:C39, C5, 'Sales Analysis'!D4:D39), SUMIFS('Sales Analysis'!D4:D39, 'Sales Analysis'!B4:B39, C4, 'Sales Analysis'!C4:C39, C5)))", "#,##0"),
+        ("H7:I7", "H8:I8", "AVERAGE ORDER VALUE (AOV)", "=B8/F8", "₹ #,##0.00"),
+        ("J7:K7", "J8:K8", "OVERALL PROFIT MARGIN", "=D8/B8", "0.00%")
     ]
 
     for top_range, val_range, label, formula, num_format in kpis:
@@ -125,11 +150,11 @@ def create_workbook():
         val_cell.number_format = num_format
 
     # Table 1: Category Snapshot on Dashboard
-    ws_dash["B9"] = "Category Financial Contribution"
-    ws_dash["B9"].font = section_font
+    ws_dash["B10"] = "Category Financial Contribution"
+    ws_dash["B10"].font = section_font
     cat_headers = ["Category", "Orders", "Revenue (INR)", "Profit (INR)", "Profit Margin %"]
     for col_idx, h in enumerate(cat_headers, start=2):
-        cell = ws_dash.cell(row=10, column=col_idx, value=h)
+        cell = ws_dash.cell(row=11, column=col_idx, value=h)
         cell.fill = navy_fill
         cell.font = white_font_bold
         cell.alignment = Alignment(horizontal="center")
@@ -143,7 +168,7 @@ def create_workbook():
                             Profit=("profit_amount", "sum")
                         ).reset_index().sort_values(by="Revenue", ascending=False)
 
-    for r_idx, row in enumerate(cat_summary.itertuples(), start=11):
+    for r_idx, row in enumerate(cat_summary.itertuples(), start=12):
         ws_dash.cell(row=r_idx, column=2, value=row.category).font = regular_font
         ws_dash.cell(row=r_idx, column=3, value=row.Orders).number_format = "#,##0"
         ws_dash.cell(row=r_idx, column=4, value=row.Revenue).number_format = "₹ #,##0"
@@ -153,22 +178,22 @@ def create_workbook():
         m_cell.font = regular_font
 
     # Total Row for Category Table
-    tot_row = 11 + len(cat_summary)
+    tot_row = 12 + len(cat_summary)
     ws_dash.cell(row=tot_row, column=2, value="Total").font = bold_font
-    ws_dash.cell(row=tot_row, column=3, value=f"=SUM(C11:C{tot_row-1})").number_format = "#,##0"
-    ws_dash.cell(row=tot_row, column=4, value=f"=SUM(D11:D{tot_row-1})").number_format = "₹ #,##0"
-    ws_dash.cell(row=tot_row, column=5, value=f"=SUM(E11:E{tot_row-1})").number_format = "₹ #,##0"
+    ws_dash.cell(row=tot_row, column=3, value=f"=SUM(C12:C{tot_row-1})").number_format = "#,##0"
+    ws_dash.cell(row=tot_row, column=4, value=f"=SUM(D12:D{tot_row-1})").number_format = "₹ #,##0"
+    ws_dash.cell(row=tot_row, column=5, value=f"=SUM(E12:E{tot_row-1})").number_format = "₹ #,##0"
     ws_dash.cell(row=tot_row, column=6, value=f"=E{tot_row}/D{tot_row}").number_format = "0.0%"
     for c in range(2, 7):
         ws_dash.cell(row=tot_row, column=c).border = total_border
         ws_dash.cell(row=tot_row, column=c).font = bold_font
 
     # Table 2: Regional Snapshot on Dashboard
-    ws_dash["H9"] = "Regional Sales & Profit Summary"
-    ws_dash["H9"].font = section_font
+    ws_dash["H10"] = "Regional Sales & Profit Summary"
+    ws_dash["H10"].font = section_font
     reg_headers = ["Region", "Orders", "Revenue (INR)", "Profit Margin %"]
     for col_idx, h in enumerate(reg_headers, start=8):
-        cell = ws_dash.cell(row=10, column=col_idx, value=h)
+        cell = ws_dash.cell(row=11, column=col_idx, value=h)
         cell.fill = blue_fill
         cell.font = white_font_bold
         cell.alignment = Alignment(horizontal="center")
@@ -179,7 +204,7 @@ def create_workbook():
         Profit=("profit_amount", "sum")
     ).reset_index().sort_values(by="Revenue", ascending=False)
 
-    for r_idx, row in enumerate(reg_summary.itertuples(), start=11):
+    for r_idx, row in enumerate(reg_summary.itertuples(), start=12):
         ws_dash.cell(row=r_idx, column=8, value=row.region).font = regular_font
         ws_dash.cell(row=r_idx, column=9, value=row.Orders).number_format = "#,##0"
         ws_dash.cell(row=r_idx, column=10, value=row.Revenue).number_format = "₹ #,##0"
@@ -201,14 +226,14 @@ def create_workbook():
         c.font = white_font_bold
 
     kpi_rows = [
-        ("Financial", "Gross Sales Revenue", "SUM(sales_amount)", "=Dashboard!B7", "INR (₹)"),
+        ("Financial", "Gross Sales Revenue", "SUM(sales_amount)", "=Dashboard!B8", "INR (₹)"),
         ("Financial", "Cost of Goods Sold (COGS)", "SUM(cost_amount)", "=SUM('Sales Analysis'!E4:E39)-SUM('Sales Analysis'!F4:F39)", "INR (₹)"),
-        ("Financial", "Net Profit", "SUM(profit_amount)", "=Dashboard!D7", "INR (₹)"),
-        ("Financial", "Net Profit Margin", "Net Profit / Gross Revenue", "=Dashboard!J7", "Percent (%)"),
-        ("Operations", "Total Completed Orders", "COUNT(order_id)", "=Dashboard!F7", "Orders"),
-        ("Operations", "Average Order Value (AOV)", "Gross Revenue / Total Orders", "=Dashboard!H7", "INR / Order"),
-        ("Operations", "Order Return Rate", "COUNT(Returned) / Total Orders", "=COUNTIF('Pivot Tables'!H4:H50000, \"Returned\")/Dashboard!F7", "Percent (<8%)"),
-        ("Operations", "Order Cancellation Rate", "COUNT(Cancelled) / Total Orders", "=COUNTIF('Pivot Tables'!H4:H50000, \"Cancelled\")/Dashboard!F7", "Percent (<7%)"),
+        ("Financial", "Net Profit", "SUM(profit_amount)", "=Dashboard!D8", "INR (₹)"),
+        ("Financial", "Net Profit Margin", "Net Profit / Gross Revenue", "=Dashboard!J8", "Percent (%)"),
+        ("Operations", "Total Completed Orders", "COUNT(order_id)", "=Dashboard!F8", "Orders"),
+        ("Operations", "Average Order Value (AOV)", "Gross Revenue / Total Orders", "=Dashboard!H8", "INR / Order"),
+        ("Operations", "Order Return Rate", "COUNT(Returned) / Total Orders", "=COUNTIF('Pivot Tables'!H4:H50000, \"Returned\")/Dashboard!F8", "Percent (<8%)"),
+        ("Operations", "Order Cancellation Rate", "COUNT(Cancelled) / Total Orders", "=COUNTIF('Pivot Tables'!H4:H50000, \"Cancelled\")/Dashboard!F8", "Percent (<7%)"),
         ("Customer", "Total Active Customers", "DISTINCTCOUNT(customer_id)", f"={df_ord['customer_id'].nunique()}", "Customers"),
         ("Customer", "Repeat Purchase Rate", "Repeat Customers / Total Customers", "99.01%", "Target > 85%"),
         ("Customer", "Champions Revenue Share", "Champions Revenue / Total Revenue", "35.80%", "Pareto Pillar"),
@@ -433,8 +458,13 @@ def create_workbook():
                         max_len = len(val_str)
             ws.column_dimensions[col_letter].width = max(max_len + 3, 12)
 
-    wb.save(EXCEL_PATH)
-    print(f"[OK] Successfully built Excel analysis workbook: {EXCEL_PATH}")
+    try:
+        wb.save(EXCEL_PATH)
+        print(f"[OK] Successfully built Excel analysis workbook: {EXCEL_PATH}")
+    except PermissionError:
+        alt_path = os.path.join(BASE_DIR, "excel", "ecommerce_analysis_updated.xlsx")
+        wb.save(alt_path)
+        print(f"[NOTE] 'ecommerce_analysis.xlsx' is currently open in Excel. Saved updated version to: {alt_path}")
 
 
 if __name__ == "__main__":
