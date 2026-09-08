@@ -71,16 +71,43 @@ def create_workbook():
     ws_dash["B3"] = "Enterprise Performance Reporting Model (2022 - 2024) | All Monetary Values in INR (₹)"
     ws_dash["B3"].font = Font(name="Calibri", size=10, italic=True, color="64748B")
 
-    # KPI Cards (Row 5 - 7)
+    # Interactive Year Filter (Row 4)
+    ws_dash["B4"] = "SELECT YEAR FILTER:"
+    ws_dash["B4"].font = bold_font
+    ws_dash["B4"].alignment = Alignment(horizontal="right", vertical="center")
+    
+    ws_dash.merge_cells("C4:D4")
+    filter_cell = ws_dash["C4"]
+    filter_cell.value = "2023"  # Default interactive selection requested by user
+    filter_cell.font = Font(name="Calibri", size=12, bold=True, color="FFFFFF")
+    filter_cell.fill = blue_fill
+    filter_cell.alignment = Alignment(horizontal="center", vertical="center")
+    
+    # Add Data Validation dropdown list for Year selection
+    from openpyxl.worksheet.datavalidation import DataValidation
+    dv_year = DataValidation(type="list", formula1='"All Years,2022,2023,2024"', allow_blank=False)
+    dv_year.error ='Please select a valid year from the list'
+    dv_year.errorTitle = 'Invalid Year'
+    dv_year.prompt = 'Click dropdown to select 2022, 2023, 2024, or All Years'
+    dv_year.promptTitle = 'Interactive Year Selector'
+    ws_dash.add_data_validation(dv_year)
+    dv_year.add(filter_cell)
+
+    ws_dash.merge_cells("E4:K4")
+    ws_dash["E4"] = "<- Click dropdown to toggle between 2022, 2023, 2024, or All Years. KPIs auto-update below!"
+    ws_dash["E4"].font = Font(name="Calibri", size=10, italic=True, color="2563EB")
+    ws_dash["E4"].alignment = Alignment(vertical="center")
+
+    # Dynamic KPI Cards (Row 6 - 8) based on Year in C4
     kpis = [
-        ("B5:C5", "B6:C6", "B7:C7", "TOTAL GROSS REVENUE", "=SUM('Sales Analysis'!E4:E39)", "₹ #,##0"),
-        ("D5:E5", "D6:E6", "D7:E7", "TOTAL NET PROFIT", "=SUM('Sales Analysis'!F4:F39)", "₹ #,##0"),
-        ("F5:G5", "F6:G6", "F7:G7", "TOTAL ORDERS", "=SUM('Sales Analysis'!D4:D39)", "#,##0"),
-        ("H5:I5", "H6:I6", "H7:I7", "AVERAGE ORDER VALUE (AOV)", "=B6/F6", "₹ #,##0.00"),
-        ("J5:K5", "J6:K6", "J7:K7", "OVERALL PROFIT MARGIN", "=D6/B6", "0.00%")
+        ("B6:C6", "B7:C7", "TOTAL GROSS REVENUE", "=IF(C4=\"All Years\", SUM('Sales Analysis'!E4:E39), SUMIF('Sales Analysis'!B4:B39, C4, 'Sales Analysis'!E4:E39))", "₹ #,##0"),
+        ("D6:E6", "D7:E7", "TOTAL NET PROFIT", "=IF(C4=\"All Years\", SUM('Sales Analysis'!F4:F39), SUMIF('Sales Analysis'!B4:B39, C4, 'Sales Analysis'!F4:F39))", "₹ #,##0"),
+        ("F6:G6", "F7:G7", "TOTAL ORDERS", "=IF(C4=\"All Years\", SUM('Sales Analysis'!D4:D39), SUMIF('Sales Analysis'!B4:B39, C4, 'Sales Analysis'!D4:D39))", "#,##0"),
+        ("H6:I6", "H7:I7", "AVERAGE ORDER VALUE (AOV)", "=B7/F7", "₹ #,##0.00"),
+        ("J6:K6", "J7:K7", "OVERALL PROFIT MARGIN", "=D7/B7", "0.00%")
     ]
 
-    for top_range, val_range, bot_range, label, formula, num_format in kpis:
+    for top_range, val_range, label, formula, num_format in kpis:
         ws_dash.merge_cells(top_range)
         ws_dash.merge_cells(val_range)
         top_cell = ws_dash[top_range.split(":")[0]]
@@ -174,14 +201,14 @@ def create_workbook():
         c.font = white_font_bold
 
     kpi_rows = [
-        ("Financial", "Gross Sales Revenue", "SUM(sales_amount)", "=Dashboard!B6", "INR (₹)"),
+        ("Financial", "Gross Sales Revenue", "SUM(sales_amount)", "=Dashboard!B7", "INR (₹)"),
         ("Financial", "Cost of Goods Sold (COGS)", "SUM(cost_amount)", "=SUM('Sales Analysis'!E4:E39)-SUM('Sales Analysis'!F4:F39)", "INR (₹)"),
-        ("Financial", "Net Profit", "SUM(profit_amount)", "=Dashboard!D6", "INR (₹)"),
-        ("Financial", "Net Profit Margin", "Net Profit / Gross Revenue", "=Dashboard!J6", "Percent (%)"),
-        ("Operations", "Total Completed Orders", "COUNT(order_id)", "=Dashboard!F6", "Orders"),
-        ("Operations", "Average Order Value (AOV)", "Gross Revenue / Total Orders", "=Dashboard!H6", "INR / Order"),
-        ("Operations", "Order Return Rate", "COUNT(Returned) / Total Orders", "=COUNTIF('Pivot Tables'!H4:H50000, \"Returned\")/Dashboard!F6", "Percent (<8%)"),
-        ("Operations", "Order Cancellation Rate", "COUNT(Cancelled) / Total Orders", "=COUNTIF('Pivot Tables'!H4:H50000, \"Cancelled\")/Dashboard!F6", "Percent (<7%)"),
+        ("Financial", "Net Profit", "SUM(profit_amount)", "=Dashboard!D7", "INR (₹)"),
+        ("Financial", "Net Profit Margin", "Net Profit / Gross Revenue", "=Dashboard!J7", "Percent (%)"),
+        ("Operations", "Total Completed Orders", "COUNT(order_id)", "=Dashboard!F7", "Orders"),
+        ("Operations", "Average Order Value (AOV)", "Gross Revenue / Total Orders", "=Dashboard!H7", "INR / Order"),
+        ("Operations", "Order Return Rate", "COUNT(Returned) / Total Orders", "=COUNTIF('Pivot Tables'!H4:H50000, \"Returned\")/Dashboard!F7", "Percent (<8%)"),
+        ("Operations", "Order Cancellation Rate", "COUNT(Cancelled) / Total Orders", "=COUNTIF('Pivot Tables'!H4:H50000, \"Cancelled\")/Dashboard!F7", "Percent (<7%)"),
         ("Customer", "Total Active Customers", "DISTINCTCOUNT(customer_id)", f"={df_ord['customer_id'].nunique()}", "Customers"),
         ("Customer", "Repeat Purchase Rate", "Repeat Customers / Total Customers", "99.01%", "Target > 85%"),
         ("Customer", "Champions Revenue Share", "Champions Revenue / Total Revenue", "35.80%", "Pareto Pillar"),
