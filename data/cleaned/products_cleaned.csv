@@ -1,0 +1,551 @@
+product_id,product_name,category,subcategory,brand,cost_price,selling_price,supplier,stock_quantity,profit_margin_percentage
+PROD-0001,Fortune Snacks & Beverages Pro,Grocery,Snacks & Beverages,Fortune,1094.48,1229.0,Farmfresh Agro Supplies,421,10.95
+PROD-0002,W Kids Wear Max,Fashion,Kids Wear,W,3394.4,5409.0,Royal Garments Supply,214,37.25
+PROD-0003,Maybelline Haircare Plus,Beauty,Haircare,Maybelline,1149.14,3229.0,Aura Personal Care,106,64.41
+PROD-0004,Cello Small Appliances Classic,Home & Kitchen,Small Appliances,Cello,400.27,589.0,Sterling Kitchenware,222,32.04
+PROD-0005,Catch Organic Foods Essentials,Grocery,Organic Foods,Catch,933.74,1129.0,Annapurna Fmcg Wholesale,572,17.29
+PROD-0006,Yonex Fitness Equipment Plus,Sports,Fitness Equipment,Yonex,2834.33,4589.0,Action Sports Distribution,183,38.24
+PROD-0007,Penguin Fiction Classic,Books,Fiction,Penguin,429.93,619.0,Scholar Press Logistics,15,30.54
+PROD-0008,Fabindia Ethnic Wear Prime,Fashion,Ethnic Wear,Fabindia,1654.76,3169.0,Vibrant Textiles Corp,258,47.78
+PROD-0009,Nike Kids Wear Essentials,Fashion,Kids Wear,Nike,1694.66,3669.0,Vibrant Textiles Corp,522,53.81
+PROD-0010,Haldiram'S Breakfast & Dairy Max,Grocery,Breakfast & Dairy,Haldiram'S,81.39,99.0,Farmfresh Agro Supplies,209,17.79
+PROD-0011,Peter England Women'S Wear Series 5,Fashion,Women'S Wear,Peter England,2940.57,4719.0,Vibrant Textiles Corp,318,37.69
+PROD-0012,L'Oreal Makeup Pro,Beauty,Makeup,L'Oreal,1005.89,1919.0,Divine Botanicals,187,47.58
+PROD-0013,Wildcraft Travel Gear Classic,Accessories,Travel Gear,Wildcraft,2069.51,3999.0,Optima Accessories,420,48.25
+PROD-0014,Xiaomi Audio & Headphones Max,Electronics,Audio & Headphones,Xiaomi,2588.26,3079.0,Apex Electronics Ltd,456,15.94
+PROD-0015,Amul Organic Foods Plus,Grocery,Organic Foods,Amul,1202.7,1349.0,Annapurna Fmcg Wholesale,477,10.85
+PROD-0016,Milton Small Appliances Prime,Home & Kitchen,Small Appliances,Milton,1409.15,2009.0,Homecraft Distributors,496,29.86
+PROD-0017,Fabindia Kids Wear Essentials,Fashion,Kids Wear,Fabindia,555.29,1099.0,Vibrant Textiles Corp,526,49.47
+PROD-0018,Nykaa Men'S Grooming Max,Beauty,Men'S Grooming,Nykaa,874.03,1499.0,Pureglow Cosmetics,29,41.69
+PROD-0019,Oxford University Press Non-Fiction Essentials,Books,Non-Fiction,Oxford University Press,394.77,619.0,Global Book Importers,564,36.22
+PROD-0020,Hawkins Small Appliances Plus,Home & Kitchen,Small Appliances,Hawkins,3313.33,6059.0,Urban Living Goods,282,45.32
+PROD-0021,Spaces Storage & Org Premium,Home & Kitchen,Storage & Org,Spaces,628.92,1179.0,Homecraft Distributors,574,46.66
+PROD-0022,Kiprun Outdoor Gear Premium,Sports,Outdoor Gear,Kiprun,5438.88,9209.0,Fitnation Logistics,463,40.94
+PROD-0023,Biotique Haircare Series 5,Beauty,Haircare,Biotique,151.02,279.0,Pureglow Cosmetics,263,45.87
+PROD-0024,Skybags Bags & Backpacks Classic,Accessories,Bags & Backpacks,Skybags,406.89,709.0,Vanguard Leather Works,571,42.61
+PROD-0025,Yonex Outdoor Gear Elite,Sports,Outdoor Gear,Yonex,3110.47,4489.0,Action Sports Distribution,249,30.71
+PROD-0026,Peter England Kids Wear Pro,Fashion,Kids Wear,Peter England,1029.94,1599.0,Heritage Weaves,519,35.59
+PROD-0027,Puma Sports Racket Sports Prime,Sports,Racket Sports,Puma Sports,555.5,959.0,Olympus Gear,427,42.08
+PROD-0028,Jaico Fiction Pro,Books,Fiction,Jaico,428.8,589.0,National Book Depot,427,27.2
+PROD-0029,Bajaj Bedding & Linen Series 5,Home & Kitchen,Bedding & Linen,Bajaj,945.07,1449.0,Sterling Kitchenware,165,34.78
+PROD-0030,Rupa Publications Fiction Prime,Books,Fiction,Rupa Publications,264.53,409.0,Global Book Importers,568,35.32
+PROD-0031,Oneplus Laptops Classic,Electronics,Laptops,Oneplus,1128.88,1519.0,Metro Gadget Hub,199,25.68
+PROD-0032,The Derma Co Haircare Classic,Beauty,Haircare,The Derma Co,411.24,859.0,Aura Personal Care,103,52.13
+PROD-0033,Nike Ethnic Wear Elite,Fashion,Ethnic Wear,Nike,1868.16,2979.0,Vibrant Textiles Corp,567,37.29
+PROD-0034,Mamaearth Fragrances Ultra,Beauty,Fragrances,Mamaearth,380.26,1019.0,Divine Botanicals,429,62.68
+PROD-0035,Philips Storage & Org Max,Home & Kitchen,Storage & Org,Philips,326.34,539.0,Urban Living Goods,550,39.45
+PROD-0036,Apple Accessories Premium,Electronics,Accessories,Apple,1767.93,2019.0,Apex Electronics Ltd,157,12.44
+PROD-0037,Spaces Home Decor Premium,Home & Kitchen,Home Decor,Spaces,287.39,459.0,Sterling Kitchenware,55,37.39
+PROD-0038,Amul Breakfast & Dairy Prime,Grocery,Breakfast & Dairy,Amul,542.44,609.0,Annapurna Fmcg Wholesale,569,10.93
+PROD-0039,W Footwear Classic,Fashion,Footwear,W,1086.02,2659.0,Vibrant Textiles Corp,144,59.16
+PROD-0040,Sony Smartphones Premium,Electronics,Smartphones,Sony,25650.29,32009.0,Apex Electronics Ltd,250,19.87
+PROD-0041,Spaces Storage & Org Premium,Home & Kitchen,Storage & Org,Spaces,4238.03,7429.0,Urban Living Goods,271,42.95
+PROD-0042,Rupa Publications Children'S Books Classic,Books,Children'S Books,Rupa Publications,213.61,309.0,Scholar Press Logistics,320,30.87
+PROD-0043,The Derma Co Men'S Grooming Premium,Beauty,Men'S Grooming,The Derma Co,232.55,499.0,Divine Botanicals,539,53.4
+PROD-0044,Fabindia Kids Wear Max,Fashion,Kids Wear,Fabindia,389.26,709.0,Heritage Weaves,305,45.1
+PROD-0045,Yonex Outdoor Gear Series 5,Sports,Outdoor Gear,Yonex,5800.35,8809.0,Olympus Gear,534,34.15
+PROD-0046,Lakme Fragrances Essentials,Beauty,Fragrances,Lakme,101.09,269.0,Divine Botanicals,108,62.42
+PROD-0047,Philips Home Decor Series 5,Home & Kitchen,Home Decor,Philips,2367.33,4219.0,Homecraft Distributors,426,43.89
+PROD-0048,Raymond Ethnic Wear Plus,Fashion,Ethnic Wear,Raymond,726.26,1859.0,Royal Garments Supply,567,60.93
+PROD-0049,Apple Accessories Premium,Electronics,Accessories,Apple,13250.39,17779.0,Apex Electronics Ltd,477,25.47
+PROD-0050,Raymond Footwear Premium,Fashion,Footwear,Raymond,1690.73,4249.0,Vibrant Textiles Corp,80,60.21
+PROD-0051,Yonex Cycling Series 5,Sports,Cycling,Yonex,477.56,699.0,Olympus Gear,519,31.68
+PROD-0052,Xiaomi Smartwatches Premium,Electronics,Smartwatches,Xiaomi,26552.43,34889.0,Apex Electronics Ltd,461,23.89
+PROD-0053,Forest Essentials Men'S Grooming Classic,Beauty,Men'S Grooming,Forest Essentials,328.99,549.0,Divine Botanicals,147,40.07
+PROD-0054,Puma Sports Outdoor Gear Plus,Sports,Outdoor Gear,Puma Sports,2479.32,4369.0,Olympus Gear,520,43.25
+PROD-0055,Domyos Fitness Equipment Series 5,Sports,Fitness Equipment,Domyos,3832.56,6379.0,Olympus Gear,340,39.92
+PROD-0056,Lakme Men'S Grooming Classic,Beauty,Men'S Grooming,Lakme,255.59,679.0,Aura Personal Care,258,62.36
+PROD-0057,Lakme Makeup Ultra,Beauty,Makeup,Lakme,369.83,619.0,Divine Botanicals,45,40.25
+PROD-0058,Nike Winter Wear Prime,Fashion,Winter Wear,Nike,1110.29,1929.0,Royal Garments Supply,354,42.44
+PROD-0059,Peter England Winter Wear Pro,Fashion,Winter Wear,Peter England,1117.07,1849.0,Heritage Weaves,46,39.59
+PROD-0060,Harpercollins Fiction Series 5,Books,Fiction,Harpercollins,281.47,409.0,National Book Depot,195,31.18
+PROD-0061,Sony Accessories Ultra,Electronics,Accessories,Sony,2870.01,3489.0,Zenith Tech Distribution,272,17.74
+PROD-0062,Arihant Non-Fiction Essentials,Books,Non-Fiction,Arihant,550.06,739.0,National Book Depot,418,25.57
+PROD-0063,Nykaa Haircare Premium,Beauty,Haircare,Nykaa,140.92,399.0,Aura Personal Care,316,64.68
+PROD-0064,Voylla Watches Classic,Accessories,Watches,Voylla,634.36,1569.0,Optima Accessories,560,59.57
+PROD-0065,Rupa Publications Children'S Books Plus,Books,Children'S Books,Rupa Publications,446.91,669.0,National Book Depot,214,33.2
+PROD-0066,Lenskart Travel Gear Elite,Accessories,Travel Gear,Lenskart,737.79,1749.0,Optima Accessories,429,57.82
+PROD-0067,Rupa Publications Non-Fiction Elite,Books,Non-Fiction,Rupa Publications,396.98,599.0,Global Book Importers,206,33.73
+PROD-0068,Nike Kids Wear Essentials,Fashion,Kids Wear,Nike,768.28,1259.0,Heritage Weaves,197,38.98
+PROD-0069,Spaces Home Decor Premium,Home & Kitchen,Home Decor,Spaces,780.33,1499.0,Homecraft Distributors,190,47.94
+PROD-0070,Maybelline Fragrances Plus,Beauty,Fragrances,Maybelline,1006.12,1899.0,Divine Botanicals,366,47.02
+PROD-0071,Arihant Children'S Books Elite,Books,Children'S Books,Arihant,360.31,539.0,Scholar Press Logistics,119,33.15
+PROD-0072,W Women'S Wear Series 5,Fashion,Women'S Wear,W,933.2,1949.0,Vibrant Textiles Corp,415,52.12
+PROD-0073,The Derma Co Makeup Essentials,Beauty,Makeup,The Derma Co,1033.88,2739.0,Pureglow Cosmetics,546,62.25
+PROD-0074,American Tourister Eyewear Elite,Accessories,Eyewear,American Tourister,720.97,2199.0,Vanguard Leather Works,31,67.21
+PROD-0075,Rupa Publications Children'S Books Ultra,Books,Children'S Books,Rupa Publications,184.31,259.0,National Book Depot,282,28.84
+PROD-0076,Allen Solly Women'S Wear Ultra,Fashion,Women'S Wear,Allen Solly,299.01,499.0,Vibrant Textiles Corp,137,40.08
+PROD-0077,Xiaomi Accessories Max,Electronics,Accessories,Xiaomi,17244.52,21019.0,Metro Gadget Hub,130,17.96
+PROD-0078,Zudio Ethnic Wear Classic,Fashion,Ethnic Wear,Zudio,1411.33,3319.0,Royal Garments Supply,63,57.48
+PROD-0079,Lenskart Watches Elite,Accessories,Watches,Lenskart,950.49,2019.0,Vanguard Leather Works,256,52.92
+PROD-0080,Allen Solly Footwear Elite,Fashion,Footwear,Allen Solly,514.89,869.0,Vibrant Textiles Corp,230,40.75
+PROD-0081,Puma Ethnic Wear Elite,Fashion,Ethnic Wear,Puma,3819.99,5879.0,Vibrant Textiles Corp,315,35.02
+PROD-0082,Oneplus Smartwatches Elite,Electronics,Smartwatches,Oneplus,1464.87,1879.0,Zenith Tech Distribution,222,22.04
+PROD-0083,Levi'S Men'S Wear Classic,Fashion,Men'S Wear,Levi'S,950.79,1559.0,Heritage Weaves,389,39.01
+PROD-0084,Levi'S Kids Wear Essentials,Fashion,Kids Wear,Levi'S,323.38,639.0,Royal Garments Supply,552,49.39
+PROD-0085,Boat Smartphones Essentials,Electronics,Smartphones,Boat,23194.78,28969.0,Zenith Tech Distribution,339,19.93
+PROD-0086,Decathlon Fitness Equipment Ultra,Sports,Fitness Equipment,Decathlon,942.51,1399.0,Olympus Gear,168,32.63
+PROD-0087,Oneplus Accessories Max,Electronics,Accessories,Oneplus,6971.97,8629.0,Zenith Tech Distribution,51,19.2
+PROD-0088,Philips Home Decor Prime,Home & Kitchen,Home Decor,Philips,2052.93,3709.0,Sterling Kitchenware,556,44.65
+PROD-0089,Kiprun Fitness Equipment Series 5,Sports,Fitness Equipment,Kiprun,318.42,509.0,Olympus Gear,499,37.44
+PROD-0090,Samsung Cameras Classic,Electronics,Cameras,Samsung,15488.58,18739.0,Metro Gadget Hub,504,17.35
+PROD-0091,Noise Smartphones Classic,Electronics,Smartphones,Noise,31832.22,40089.0,Zenith Tech Distribution,255,20.6
+PROD-0092,W Kids Wear Elite,Fashion,Kids Wear,W,272.16,539.0,Heritage Weaves,426,49.51
+PROD-0093,Aashirvaad Snacks & Beverages Series 5,Grocery,Snacks & Beverages,Aashirvaad,320.41,409.0,Farmfresh Agro Supplies,453,21.66
+PROD-0094,Samsung Smartwatches Premium,Electronics,Smartwatches,Samsung,8112.08,10559.0,Zenith Tech Distribution,533,23.17
+PROD-0095,Bombay Dyeing Bedding & Linen Essentials,Home & Kitchen,Bedding & Linen,Bombay Dyeing,283.01,469.0,Urban Living Goods,301,39.66
+PROD-0096,Nykaa Makeup Essentials,Beauty,Makeup,Nykaa,666.89,1609.0,Pureglow Cosmetics,360,58.55
+PROD-0097,Cosco Racket Sports Ultra,Sports,Racket Sports,Cosco,2444.95,3459.0,Olympus Gear,569,29.32
+PROD-0098,Nike Winter Wear Premium,Fashion,Winter Wear,Nike,1350.06,3439.0,Heritage Weaves,447,60.74
+PROD-0099,Sony Audio & Headphones Premium,Electronics,Audio & Headphones,Sony,7609.01,9099.0,Metro Gadget Hub,309,16.38
+PROD-0100,W Women'S Wear Ultra,Fashion,Women'S Wear,W,855.5,1759.0,Vibrant Textiles Corp,136,51.36
+PROD-0101,Dell Smartphones Pro,Electronics,Smartphones,Dell,21157.47,27649.0,Zenith Tech Distribution,154,23.48
+PROD-0102,Titan Bags & Backpacks Classic,Accessories,Bags & Backpacks,Titan,194.65,449.0,Optima Accessories,329,56.65
+PROD-0103,Bajaj Home Decor Plus,Home & Kitchen,Home Decor,Bajaj,618.4,1019.0,Urban Living Goods,89,39.31
+PROD-0104,Nivia Sports Apparel Max,Sports,Sports Apparel,Nivia,182.96,329.0,Olympus Gear,348,44.39
+PROD-0105,Penguin Self-Help Pro,Books,Self-Help,Penguin,473.35,719.0,Global Book Importers,346,34.17
+PROD-0106,Peter England Footwear Series 5,Fashion,Footwear,Peter England,1761.65,3229.0,Vibrant Textiles Corp,223,45.44
+PROD-0107,Aashirvaad Cooking Essentials Max,Grocery,Cooking Essentials,Aashirvaad,94.28,109.0,Bharat Foodworks,305,13.5
+PROD-0108,Milton Home Decor Series 5,Home & Kitchen,Home Decor,Milton,615.46,969.0,Urban Living Goods,407,36.49
+PROD-0109,Bombay Dyeing Bedding & Linen Essentials,Home & Kitchen,Bedding & Linen,Bombay Dyeing,3310.03,5379.0,Homecraft Distributors,242,38.46
+PROD-0110,Peter England Ethnic Wear Essentials,Fashion,Ethnic Wear,Peter England,495.95,919.0,Heritage Weaves,314,46.03
+PROD-0111,Philips Bedding & Linen Pro,Home & Kitchen,Bedding & Linen,Philips,2629.39,3779.0,Urban Living Goods,147,30.42
+PROD-0112,W Footwear Classic,Fashion,Footwear,W,706.89,1279.0,Heritage Weaves,392,44.73
+PROD-0113,Levi'S Footwear Series 5,Fashion,Footwear,Levi'S,2018.73,3589.0,Vibrant Textiles Corp,238,43.75
+PROD-0114,Hawkins Small Appliances Classic,Home & Kitchen,Small Appliances,Hawkins,1723.65,2559.0,Urban Living Goods,209,32.64
+PROD-0115,Nivia Fitness Equipment Premium,Sports,Fitness Equipment,Nivia,1485.79,2249.0,Action Sports Distribution,161,33.94
+PROD-0116,Oxford University Press Fiction Premium,Books,Fiction,Oxford University Press,159.03,249.0,National Book Depot,109,36.13
+PROD-0117,Spaces Cookware Pro,Home & Kitchen,Cookware,Spaces,1329.23,2439.0,Urban Living Goods,107,45.5
+PROD-0118,Harpercollins Children'S Books Ultra,Books,Children'S Books,Harpercollins,342.28,519.0,National Book Depot,516,34.05
+PROD-0119,Bajaj Small Appliances Series 5,Home & Kitchen,Small Appliances,Bajaj,1421.54,2009.0,Urban Living Goods,489,29.24
+PROD-0120,Samsung Audio & Headphones Classic,Electronics,Audio & Headphones,Samsung,30131.93,34569.0,Metro Gadget Hub,497,12.84
+PROD-0121,Xiaomi Smartwatches Max,Electronics,Smartwatches,Xiaomi,26112.76,29679.0,Metro Gadget Hub,481,12.02
+PROD-0122,Biba Women'S Wear Essentials,Fashion,Women'S Wear,Biba,1041.57,2129.0,Royal Garments Supply,490,51.08
+PROD-0123,Cosco Outdoor Gear Elite,Sports,Outdoor Gear,Cosco,1256.7,1939.0,Olympus Gear,590,35.19
+PROD-0124,Yonex Outdoor Gear Prime,Sports,Outdoor Gear,Yonex,1180.58,1879.0,Action Sports Distribution,173,37.17
+PROD-0125,Tata Sampann Breakfast & Dairy Classic,Grocery,Breakfast & Dairy,Tata Sampann,186.98,219.0,Farmfresh Agro Supplies,107,14.62
+PROD-0126,Hp Cameras Series 5,Electronics,Cameras,Hp,11349.91,12959.0,Zenith Tech Distribution,261,12.42
+PROD-0127,Spaces Cookware Series 5,Home & Kitchen,Cookware,Spaces,2774.96,4549.0,Homecraft Distributors,201,39.0
+PROD-0128,Peter England Winter Wear Essentials,Fashion,Winter Wear,Peter England,2031.08,3519.0,Vibrant Textiles Corp,194,42.28
+PROD-0129,Yonex Fitness Equipment Plus,Sports,Fitness Equipment,Yonex,2039.89,2849.0,Olympus Gear,218,28.4
+PROD-0130,Nestle Cooking Essentials Premium,Grocery,Cooking Essentials,Nestle,85.16,109.0,Bharat Foodworks,205,21.87
+PROD-0131,Sony Smartphones Classic,Electronics,Smartphones,Sony,2257.0,2649.0,Apex Electronics Ltd,173,14.8
+PROD-0132,Realme Cameras Plus,Electronics,Cameras,Realme,17419.2,22249.0,Metro Gadget Hub,436,21.71
+PROD-0133,Penguin Non-Fiction Prime,Books,Non-Fiction,Penguin,183.61,259.0,Scholar Press Logistics,349,29.11
+PROD-0134,Mamaearth Men'S Grooming Ultra,Beauty,Men'S Grooming,Mamaearth,301.77,699.0,Divine Botanicals,256,56.83
+PROD-0135,Nykaa Men'S Grooming Classic,Beauty,Men'S Grooming,Nykaa,114.14,279.0,Pureglow Cosmetics,347,59.09
+PROD-0136,Kiprun Outdoor Gear Premium,Sports,Outdoor Gear,Kiprun,2422.25,3369.0,Action Sports Distribution,568,28.1
+PROD-0137,Nike Women'S Wear Ultra,Fashion,Women'S Wear,Nike,763.4,1329.0,Heritage Weaves,288,42.56
+PROD-0138,Fabindia Ethnic Wear Essentials,Fashion,Ethnic Wear,Fabindia,1766.93,3699.0,Royal Garments Supply,519,52.23
+PROD-0139,Philips Small Appliances Ultra,Home & Kitchen,Small Appliances,Philips,385.66,719.0,Sterling Kitchenware,268,46.36
+PROD-0140,Realme Smartphones Ultra,Electronics,Smartphones,Realme,22011.58,29559.0,Zenith Tech Distribution,274,25.53
+PROD-0141,Domyos Racket Sports Premium,Sports,Racket Sports,Domyos,7244.72,11689.0,Fitnation Logistics,134,38.02
+PROD-0142,Peter England Women'S Wear Premium,Fashion,Women'S Wear,Peter England,466.2,829.0,Heritage Weaves,464,43.76
+PROD-0143,Apple Smartphones Classic,Electronics,Smartphones,Apple,14892.55,17679.0,Metro Gadget Hub,465,15.76
+PROD-0144,Harpercollins Fiction Elite,Books,Fiction,Harpercollins,224.32,319.0,Global Book Importers,267,29.68
+PROD-0145,American Tourister Travel Gear Essentials,Accessories,Travel Gear,American Tourister,218.53,549.0,Vanguard Leather Works,130,60.19
+PROD-0146,Yonex Sports Apparel Elite,Sports,Sports Apparel,Yonex,441.21,679.0,Olympus Gear,156,35.02
+PROD-0147,W Kids Wear Plus,Fashion,Kids Wear,W,1638.08,3399.0,Heritage Weaves,148,51.81
+PROD-0148,Prestige Small Appliances Max,Home & Kitchen,Small Appliances,Prestige,2825.8,4199.0,Urban Living Goods,152,32.7
+PROD-0149,Yonex Outdoor Gear Pro,Sports,Outdoor Gear,Yonex,4191.64,7299.0,Olympus Gear,576,42.57
+PROD-0150,Nivia Sports Apparel Pro,Sports,Sports Apparel,Nivia,746.86,1349.0,Action Sports Distribution,286,44.64
+PROD-0151,Peter England Kids Wear Essentials,Fashion,Kids Wear,Peter England,1479.28,2439.0,Heritage Weaves,546,39.35
+PROD-0152,Lenskart Travel Gear Essentials,Accessories,Travel Gear,Lenskart,964.47,2479.0,Vanguard Leather Works,372,61.09
+PROD-0153,Boat Accessories Elite,Electronics,Accessories,Boat,19766.05,25619.0,Metro Gadget Hub,541,22.85
+PROD-0154,Nykaa Makeup Series 5,Beauty,Makeup,Nykaa,223.89,459.0,Pureglow Cosmetics,418,51.22
+PROD-0155,Samsung Smartphones Pro,Electronics,Smartphones,Samsung,5759.49,6809.0,Apex Electronics Ltd,299,15.41
+PROD-0156,Levi'S Footwear Max,Fashion,Footwear,Levi'S,440.33,749.0,Royal Garments Supply,343,41.21
+PROD-0157,Hp Smartphones Elite,Electronics,Smartphones,Hp,42002.55,52129.0,Apex Electronics Ltd,181,19.43
+PROD-0158,Zudio Women'S Wear Pro,Fashion,Women'S Wear,Zudio,907.4,1889.0,Vibrant Textiles Corp,167,51.96
+PROD-0159,Aashirvaad Breakfast & Dairy Premium,Grocery,Breakfast & Dairy,Aashirvaad,94.23,109.0,Bharat Foodworks,371,13.55
+PROD-0160,Titan Bags & Backpacks Plus,Accessories,Bags & Backpacks,Titan,498.1,839.0,Prism Lifestyle Supply,504,40.63
+PROD-0161,Xiaomi Audio & Headphones Pro,Electronics,Audio & Headphones,Xiaomi,666.53,899.0,Apex Electronics Ltd,216,25.86
+PROD-0162,Zudio Men'S Wear Essentials,Fashion,Men'S Wear,Zudio,1889.93,4959.0,Royal Garments Supply,99,61.89
+PROD-0163,Forest Essentials Haircare Premium,Beauty,Haircare,Forest Essentials,130.96,219.0,Pureglow Cosmetics,132,40.2
+PROD-0164,Spaces Small Appliances Classic,Home & Kitchen,Small Appliances,Spaces,765.82,1279.0,Homecraft Distributors,170,40.12
+PROD-0165,Bajaj Cookware Max,Home & Kitchen,Cookware,Bajaj,4223.32,6889.0,Homecraft Distributors,486,38.69
+PROD-0166,Yonex Cycling Classic,Sports,Cycling,Yonex,5901.2,8189.0,Olympus Gear,69,27.94
+PROD-0167,Zudio Men'S Wear Max,Fashion,Men'S Wear,Zudio,397.38,649.0,Heritage Weaves,133,38.77
+PROD-0168,Spaces Cookware Max,Home & Kitchen,Cookware,Spaces,622.02,979.0,Sterling Kitchenware,147,36.46
+PROD-0169,Titan Watches Premium,Accessories,Watches,Titan,187.95,419.0,Optima Accessories,47,55.14
+PROD-0170,Apple Smartwatches Elite,Electronics,Smartwatches,Apple,2740.09,3399.0,Metro Gadget Hub,556,19.39
+PROD-0171,Fastrack Jewelry & Belts Premium,Accessories,Jewelry & Belts,Fastrack,517.24,889.0,Optima Accessories,234,41.82
+PROD-0172,Puma Men'S Wear Plus,Fashion,Men'S Wear,Puma,422.7,719.0,Heritage Weaves,456,41.21
+PROD-0173,The Derma Co Fragrances Series 5,Beauty,Fragrances,The Derma Co,118.19,239.0,Pureglow Cosmetics,28,50.55
+PROD-0174,Forest Essentials Haircare Ultra,Beauty,Haircare,Forest Essentials,411.33,669.0,Divine Botanicals,548,38.52
+PROD-0175,Fastrack Bags & Backpacks Classic,Accessories,Bags & Backpacks,Fastrack,316.68,829.0,Prism Lifestyle Supply,117,61.8
+PROD-0176,Puma Men'S Wear Series 5,Fashion,Men'S Wear,Puma,887.99,1629.0,Vibrant Textiles Corp,419,45.49
+PROD-0177,W Winter Wear Elite,Fashion,Winter Wear,W,292.43,529.0,Vibrant Textiles Corp,23,44.72
+PROD-0178,Haldiram'S Breakfast & Dairy Classic,Grocery,Breakfast & Dairy,Haldiram'S,484.52,549.0,Annapurna Fmcg Wholesale,308,11.74
+PROD-0179,Nykaa Fragrances Premium,Beauty,Fragrances,Nykaa,1107.22,2569.0,Pureglow Cosmetics,213,56.9
+PROD-0180,Sony Accessories Prime,Electronics,Accessories,Sony,34482.34,41159.0,Zenith Tech Distribution,82,16.22
+PROD-0181,Bajaj Cookware Premium,Home & Kitchen,Cookware,Bajaj,1027.76,1869.0,Urban Living Goods,368,45.01
+PROD-0182,Dabur Snacks & Beverages Max,Grocery,Snacks & Beverages,Dabur,1077.96,1199.0,Annapurna Fmcg Wholesale,249,10.1
+PROD-0183,Fortune Cooking Essentials Ultra,Grocery,Cooking Essentials,Fortune,60.77,70.0,Annapurna Fmcg Wholesale,210,13.19
+PROD-0184,Cello Bedding & Linen Elite,Home & Kitchen,Bedding & Linen,Cello,969.87,1619.0,Urban Living Goods,567,40.09
+PROD-0185,Spaces Home Decor Classic,Home & Kitchen,Home Decor,Spaces,4628.65,6889.0,Sterling Kitchenware,232,32.81
+PROD-0186,Puma Men'S Wear Classic,Fashion,Men'S Wear,Puma,3101.72,4929.0,Vibrant Textiles Corp,41,37.07
+PROD-0187,Forest Essentials Haircare Prime,Beauty,Haircare,Forest Essentials,681.26,1409.0,Pureglow Cosmetics,141,51.65
+PROD-0188,Puma Sports Outdoor Gear Essentials,Sports,Outdoor Gear,Puma Sports,329.72,569.0,Action Sports Distribution,251,42.05
+PROD-0189,Hp Cameras Pro,Electronics,Cameras,Hp,4294.28,4939.0,Zenith Tech Distribution,185,13.05
+PROD-0190,Prestige Storage & Org Max,Home & Kitchen,Storage & Org,Prestige,1573.47,2959.0,Sterling Kitchenware,456,46.82
+PROD-0191,Domyos Cycling Pro,Sports,Cycling,Domyos,1239.09,2199.0,Olympus Gear,437,43.65
+PROD-0192,Philips Small Appliances Ultra,Home & Kitchen,Small Appliances,Philips,1261.04,2099.0,Homecraft Distributors,558,39.92
+PROD-0193,Fabindia Winter Wear Elite,Fashion,Winter Wear,Fabindia,2405.41,4009.0,Royal Garments Supply,282,40.0
+PROD-0194,Prestige Small Appliances Ultra,Home & Kitchen,Small Appliances,Prestige,1886.68,3499.0,Homecraft Distributors,48,46.08
+PROD-0195,Tata Sampann Snacks & Beverages Pro,Grocery,Snacks & Beverages,Tata Sampann,254.25,309.0,Annapurna Fmcg Wholesale,386,17.72
+PROD-0196,Peter England Ethnic Wear Essentials,Fashion,Ethnic Wear,Peter England,648.09,1599.0,Heritage Weaves,392,59.47
+PROD-0197,Amul Cooking Essentials Max,Grocery,Cooking Essentials,Amul,944.35,1069.0,Bharat Foodworks,394,11.66
+PROD-0198,Arihant Academic & Test Prep Elite,Books,Academic & Test Prep,Arihant,779.25,1079.0,Scholar Press Logistics,395,27.78
+PROD-0199,Spaces Home Decor Plus,Home & Kitchen,Home Decor,Spaces,2551.25,4199.0,Homecraft Distributors,272,39.24
+PROD-0200,Skybags Jewelry & Belts Classic,Accessories,Jewelry & Belts,Skybags,439.71,1099.0,Optima Accessories,272,59.99
+PROD-0201,Jaico Academic & Test Prep Max,Books,Academic & Test Prep,Jaico,269.37,419.0,Global Book Importers,60,35.71
+PROD-0202,Prestige Storage & Org Series 5,Home & Kitchen,Storage & Org,Prestige,907.27,1299.0,Homecraft Distributors,140,30.16
+PROD-0203,Levi'S Men'S Wear Prime,Fashion,Men'S Wear,Levi'S,1243.48,3099.0,Vibrant Textiles Corp,582,59.87
+PROD-0204,Fabindia Women'S Wear Prime,Fashion,Women'S Wear,Fabindia,735.59,1209.0,Royal Garments Supply,297,39.16
+PROD-0205,Yonex Fitness Equipment Prime,Sports,Fitness Equipment,Yonex,6441.33,10359.0,Action Sports Distribution,543,37.82
+PROD-0206,Lakme Skincare Max,Beauty,Skincare,Lakme,577.64,969.0,Divine Botanicals,390,40.39
+PROD-0207,Decathlon Cycling Premium,Sports,Cycling,Decathlon,1704.25,2759.0,Action Sports Distribution,46,38.23
+PROD-0208,Haldiram'S Staples & Grains Pro,Grocery,Staples & Grains,Haldiram'S,603.91,749.0,Bharat Foodworks,489,19.37
+PROD-0209,Nestle Staples & Grains Pro,Grocery,Staples & Grains,Nestle,1203.03,1449.0,Bharat Foodworks,433,16.98
+PROD-0210,Oneplus Smartwatches Pro,Electronics,Smartwatches,Oneplus,4948.63,6429.0,Apex Electronics Ltd,488,23.03
+PROD-0211,Boat Accessories Max,Electronics,Accessories,Boat,904.55,1039.0,Zenith Tech Distribution,63,12.94
+PROD-0212,Cosco Outdoor Gear Ultra,Sports,Outdoor Gear,Cosco,1284.14,1899.0,Olympus Gear,518,32.38
+PROD-0213,Boat Audio & Headphones Classic,Electronics,Audio & Headphones,Boat,18570.84,22239.0,Zenith Tech Distribution,131,16.49
+PROD-0214,Levi'S Winter Wear Pro,Fashion,Winter Wear,Levi'S,1262.14,2529.0,Vibrant Textiles Corp,593,50.09
+PROD-0215,Biba Ethnic Wear Series 5,Fashion,Ethnic Wear,Biba,1418.28,2459.0,Royal Garments Supply,555,42.32
+PROD-0216,Jaico Self-Help Prime,Books,Self-Help,Jaico,180.35,239.0,National Book Depot,274,24.54
+PROD-0217,Decathlon Cycling Max,Sports,Cycling,Decathlon,2910.25,4079.0,Action Sports Distribution,589,28.65
+PROD-0218,Sony Smartphones Plus,Electronics,Smartphones,Sony,27772.89,36009.0,Apex Electronics Ltd,427,22.87
+PROD-0219,Peter England Women'S Wear Prime,Fashion,Women'S Wear,Peter England,1577.56,2559.0,Royal Garments Supply,418,38.35
+PROD-0220,Philips Bedding & Linen Elite,Home & Kitchen,Bedding & Linen,Philips,236.78,369.0,Homecraft Distributors,80,35.83
+PROD-0221,Boat Cameras Essentials,Electronics,Cameras,Boat,5680.25,6919.0,Apex Electronics Ltd,34,17.9
+PROD-0222,Prestige Cookware Prime,Home & Kitchen,Cookware,Prestige,258.42,399.0,Sterling Kitchenware,439,35.23
+PROD-0223,Decathlon Cycling Elite,Sports,Cycling,Decathlon,709.54,1169.0,Fitnation Logistics,40,39.3
+PROD-0224,Fabindia Men'S Wear Essentials,Fashion,Men'S Wear,Fabindia,711.28,1429.0,Vibrant Textiles Corp,512,50.23
+PROD-0225,Titan Jewelry & Belts Pro,Accessories,Jewelry & Belts,Titan,212.09,359.0,Prism Lifestyle Supply,35,40.92
+PROD-0226,Maybelline Makeup Series 5,Beauty,Makeup,Maybelline,1065.03,3019.0,Divine Botanicals,84,64.72
+PROD-0227,Milton Storage & Org Pro,Home & Kitchen,Storage & Org,Milton,921.38,1559.0,Urban Living Goods,337,40.9
+PROD-0228,Hawkins Small Appliances Classic,Home & Kitchen,Small Appliances,Hawkins,1444.24,2649.0,Sterling Kitchenware,58,45.48
+PROD-0229,Puma Sports Outdoor Gear Series 5,Sports,Outdoor Gear,Puma Sports,1229.11,1869.0,Olympus Gear,53,34.24
+PROD-0230,L'Oreal Men'S Grooming Premium,Beauty,Men'S Grooming,L'Oreal,366.84,739.0,Divine Botanicals,523,50.36
+PROD-0231,Realme Smartwatches Essentials,Electronics,Smartwatches,Realme,1427.62,1759.0,Metro Gadget Hub,244,18.84
+PROD-0232,Harpercollins Fiction Premium,Books,Fiction,Harpercollins,187.33,269.0,National Book Depot,464,30.36
+PROD-0233,Fabindia Winter Wear Prime,Fashion,Winter Wear,Fabindia,253.93,649.0,Royal Garments Supply,584,60.87
+PROD-0234,Penguin Self-Help Prime,Books,Self-Help,Penguin,119.01,179.0,National Book Depot,116,33.51
+PROD-0235,Levi'S Women'S Wear Ultra,Fashion,Women'S Wear,Levi'S,3364.08,5919.0,Royal Garments Supply,65,43.16
+PROD-0236,Peter England Ethnic Wear Ultra,Fashion,Ethnic Wear,Peter England,869.83,2049.0,Heritage Weaves,269,57.55
+PROD-0237,Apple Laptops Prime,Electronics,Laptops,Apple,17470.76,20049.0,Zenith Tech Distribution,202,12.86
+PROD-0238,Amul Snacks & Beverages Premium,Grocery,Snacks & Beverages,Amul,63.22,80.0,Bharat Foodworks,131,20.98
+PROD-0239,Bombay Dyeing Storage & Org Max,Home & Kitchen,Storage & Org,Bombay Dyeing,766.47,1459.0,Homecraft Distributors,285,47.47
+PROD-0240,American Tourister Watches Classic,Accessories,Watches,American Tourister,1173.4,2079.0,Vanguard Leather Works,41,43.56
+PROD-0241,Bombay Dyeing Small Appliances Series 5,Home & Kitchen,Small Appliances,Bombay Dyeing,1165.72,1889.0,Homecraft Distributors,486,38.29
+PROD-0242,Philips Storage & Org Max,Home & Kitchen,Storage & Org,Philips,213.19,369.0,Homecraft Distributors,435,42.22
+PROD-0243,Domyos Fitness Equipment Pro,Sports,Fitness Equipment,Domyos,291.9,459.0,Action Sports Distribution,280,36.41
+PROD-0244,Hawkins Cookware Elite,Home & Kitchen,Cookware,Hawkins,2171.32,3089.0,Homecraft Distributors,600,29.71
+PROD-0245,Forest Essentials Men'S Grooming Max,Beauty,Men'S Grooming,Forest Essentials,216.92,449.0,Pureglow Cosmetics,100,51.69
+PROD-0246,Decathlon Cycling Series 5,Sports,Cycling,Decathlon,2940.46,4049.0,Olympus Gear,530,27.38
+PROD-0247,L'Oreal Men'S Grooming Series 5,Beauty,Men'S Grooming,L'Oreal,1847.97,3199.0,Divine Botanicals,46,42.23
+PROD-0248,Arihant Fiction Ultra,Books,Fiction,Arihant,425.85,649.0,National Book Depot,326,34.38
+PROD-0249,Biba Kids Wear Max,Fashion,Kids Wear,Biba,413.08,1019.0,Vibrant Textiles Corp,477,59.46
+PROD-0250,W Footwear Plus,Fashion,Footwear,W,282.46,579.0,Heritage Weaves,599,51.22
+PROD-0251,Xiaomi Smartwatches Essentials,Electronics,Smartwatches,Xiaomi,23530.04,29779.0,Zenith Tech Distribution,26,20.98
+PROD-0252,Aashirvaad Breakfast & Dairy Pro,Grocery,Breakfast & Dairy,Aashirvaad,664.02,749.0,Annapurna Fmcg Wholesale,280,11.35
+PROD-0253,Allen Solly Kids Wear Essentials,Fashion,Kids Wear,Allen Solly,1837.09,3419.0,Royal Garments Supply,342,46.27
+PROD-0254,Voylla Jewelry & Belts Classic,Accessories,Jewelry & Belts,Voylla,1637.47,2749.0,Optima Accessories,208,40.43
+PROD-0255,Fortune Cooking Essentials Premium,Grocery,Cooking Essentials,Fortune,70.65,80.0,Farmfresh Agro Supplies,427,11.69
+PROD-0256,Domyos Fitness Equipment Max,Sports,Fitness Equipment,Domyos,4684.86,7289.0,Olympus Gear,176,35.73
+PROD-0257,Peter England Kids Wear Premium,Fashion,Kids Wear,Peter England,668.35,1199.0,Heritage Weaves,291,44.26
+PROD-0258,Zudio Women'S Wear Prime,Fashion,Women'S Wear,Zudio,441.42,909.0,Heritage Weaves,588,51.44
+PROD-0259,Aashirvaad Breakfast & Dairy Prime,Grocery,Breakfast & Dairy,Aashirvaad,139.54,159.0,Farmfresh Agro Supplies,503,12.24
+PROD-0260,Rupa Publications Fiction Premium,Books,Fiction,Rupa Publications,441.12,699.0,Global Book Importers,378,36.89
+PROD-0261,Oneplus Laptops Max,Electronics,Laptops,Oneplus,1237.66,1539.0,Zenith Tech Distribution,448,19.58
+PROD-0262,The Derma Co Skincare Pro,Beauty,Skincare,The Derma Co,361.58,789.0,Aura Personal Care,521,54.17
+PROD-0263,Boat Cameras Essentials,Electronics,Cameras,Boat,5561.55,7059.0,Apex Electronics Ltd,305,21.21
+PROD-0264,Bajaj Storage & Org Prime,Home & Kitchen,Storage & Org,Bajaj,1926.44,3059.0,Sterling Kitchenware,377,37.02
+PROD-0265,Peter England Men'S Wear Prime,Fashion,Men'S Wear,Peter England,570.86,1059.0,Heritage Weaves,201,46.09
+PROD-0266,Samsung Audio & Headphones Prime,Electronics,Audio & Headphones,Samsung,12681.3,16649.0,Metro Gadget Hub,304,23.83
+PROD-0267,Raymond Kids Wear Series 5,Fashion,Kids Wear,Raymond,214.42,559.0,Royal Garments Supply,269,61.64
+PROD-0268,Puma Winter Wear Prime,Fashion,Winter Wear,Puma,373.56,679.0,Heritage Weaves,41,44.98
+PROD-0269,Yonex Outdoor Gear Ultra,Sports,Outdoor Gear,Yonex,564.57,889.0,Olympus Gear,170,36.49
+PROD-0270,Peter England Men'S Wear Classic,Fashion,Men'S Wear,Peter England,375.19,669.0,Vibrant Textiles Corp,589,43.92
+PROD-0271,Decathlon Outdoor Gear Classic,Sports,Outdoor Gear,Decathlon,2075.76,2859.0,Fitnation Logistics,178,27.4
+PROD-0272,Realme Audio & Headphones Prime,Electronics,Audio & Headphones,Realme,11245.9,14679.0,Apex Electronics Ltd,296,23.39
+PROD-0273,W Kids Wear Pro,Fashion,Kids Wear,W,1321.99,2189.0,Vibrant Textiles Corp,529,39.61
+PROD-0274,Levi'S Kids Wear Series 5,Fashion,Kids Wear,Levi'S,229.69,519.0,Royal Garments Supply,424,55.74
+PROD-0275,W Kids Wear Premium,Fashion,Kids Wear,W,1742.75,3799.0,Vibrant Textiles Corp,57,54.13
+PROD-0276,Harpercollins Academic & Test Prep Prime,Books,Academic & Test Prep,Harpercollins,201.85,269.0,National Book Depot,506,24.96
+PROD-0277,Skybags Watches Essentials,Accessories,Watches,Skybags,948.79,2589.0,Vanguard Leather Works,84,63.35
+PROD-0278,Samsung Smartwatches Max,Electronics,Smartwatches,Samsung,3103.25,3999.0,Metro Gadget Hub,106,22.4
+PROD-0279,Oneplus Audio & Headphones Max,Electronics,Audio & Headphones,Oneplus,8624.84,10519.0,Apex Electronics Ltd,269,18.01
+PROD-0280,Realme Audio & Headphones Classic,Electronics,Audio & Headphones,Realme,1965.06,2339.0,Metro Gadget Hub,224,15.99
+PROD-0281,Dell Accessories Plus,Electronics,Accessories,Dell,11911.74,14079.0,Apex Electronics Ltd,233,15.39
+PROD-0282,Raymond Ethnic Wear Elite,Fashion,Ethnic Wear,Raymond,2440.74,4659.0,Vibrant Textiles Corp,206,47.61
+PROD-0283,Allen Solly Women'S Wear Elite,Fashion,Women'S Wear,Allen Solly,1220.9,3019.0,Royal Garments Supply,584,59.56
+PROD-0284,Oneplus Cameras Elite,Electronics,Cameras,Oneplus,4861.49,6119.0,Zenith Tech Distribution,37,20.55
+PROD-0285,Nike Women'S Wear Ultra,Fashion,Women'S Wear,Nike,1321.67,3409.0,Royal Garments Supply,522,61.23
+PROD-0286,Wildcraft Watches Premium,Accessories,Watches,Wildcraft,316.07,589.0,Optima Accessories,114,46.34
+PROD-0287,Wildcraft Jewelry & Belts Pro,Accessories,Jewelry & Belts,Wildcraft,600.72,1109.0,Vanguard Leather Works,212,45.83
+PROD-0288,Cosco Outdoor Gear Premium,Sports,Outdoor Gear,Cosco,591.37,849.0,Action Sports Distribution,441,30.35
+PROD-0289,Fortune Cooking Essentials Essentials,Grocery,Cooking Essentials,Fortune,88.34,99.0,Farmfresh Agro Supplies,81,10.77
+PROD-0290,Biba Kids Wear Ultra,Fashion,Kids Wear,Biba,1393.28,2259.0,Heritage Weaves,566,38.32
+PROD-0291,Prestige Storage & Org Series 5,Home & Kitchen,Storage & Org,Prestige,1424.6,2589.0,Urban Living Goods,17,44.97
+PROD-0292,Peter England Ethnic Wear Classic,Fashion,Ethnic Wear,Peter England,2234.27,3809.0,Heritage Weaves,114,41.34
+PROD-0293,Mamaearth Makeup Ultra,Beauty,Makeup,Mamaearth,399.96,679.0,Aura Personal Care,438,41.1
+PROD-0294,Domyos Racket Sports Plus,Sports,Racket Sports,Domyos,478.12,669.0,Action Sports Distribution,349,28.53
+PROD-0295,Biba Kids Wear Prime,Fashion,Kids Wear,Biba,1484.07,2529.0,Royal Garments Supply,286,41.32
+PROD-0296,Dell Cameras Series 5,Electronics,Cameras,Dell,682.92,839.0,Metro Gadget Hub,269,18.6
+PROD-0297,Spaces Storage & Org Premium,Home & Kitchen,Storage & Org,Spaces,524.15,739.0,Urban Living Goods,577,29.07
+PROD-0298,Milton Bedding & Linen Prime,Home & Kitchen,Bedding & Linen,Milton,2497.59,4329.0,Urban Living Goods,595,42.31
+PROD-0299,Oxford University Press Self-Help Elite,Books,Self-Help,Oxford University Press,93.81,150.0,Global Book Importers,363,37.46
+PROD-0300,Puma Kids Wear Pro,Fashion,Kids Wear,Puma,3408.72,5859.0,Royal Garments Supply,128,41.82
+PROD-0301,Philips Cookware Premium,Home & Kitchen,Cookware,Philips,700.11,1079.0,Urban Living Goods,199,35.11
+PROD-0302,Oxford University Press Fiction Elite,Books,Fiction,Oxford University Press,440.47,709.0,National Book Depot,267,37.87
+PROD-0303,Lakme Fragrances Max,Beauty,Fragrances,Lakme,446.16,749.0,Aura Personal Care,87,40.43
+PROD-0304,Titan Jewelry & Belts Pro,Accessories,Jewelry & Belts,Titan,609.43,1509.0,Prism Lifestyle Supply,247,59.61
+PROD-0305,W Kids Wear Prime,Fashion,Kids Wear,W,770.84,1949.0,Heritage Weaves,227,60.45
+PROD-0306,Sony Smartwatches Prime,Electronics,Smartwatches,Sony,2592.45,3019.0,Apex Electronics Ltd,143,14.13
+PROD-0307,Arihant Fiction Ultra,Books,Fiction,Arihant,129.61,169.0,Scholar Press Logistics,350,23.31
+PROD-0308,Zudio Footwear Prime,Fashion,Footwear,Zudio,966.61,1789.0,Vibrant Textiles Corp,512,45.97
+PROD-0309,Samsung Smartphones Premium,Electronics,Smartphones,Samsung,46168.89,61839.0,Apex Electronics Ltd,323,25.34
+PROD-0310,Puma Women'S Wear Premium,Fashion,Women'S Wear,Puma,1520.36,3079.0,Heritage Weaves,271,50.62
+PROD-0311,Allen Solly Women'S Wear Prime,Fashion,Women'S Wear,Allen Solly,496.18,959.0,Royal Garments Supply,399,48.26
+PROD-0312,Puma Winter Wear Series 5,Fashion,Winter Wear,Puma,444.5,1029.0,Heritage Weaves,460,56.8
+PROD-0313,Bombay Dyeing Bedding & Linen Pro,Home & Kitchen,Bedding & Linen,Bombay Dyeing,1929.79,2829.0,Sterling Kitchenware,349,31.79
+PROD-0314,Milton Bedding & Linen Pro,Home & Kitchen,Bedding & Linen,Milton,595.66,969.0,Homecraft Distributors,333,38.53
+PROD-0315,Yonex Outdoor Gear Essentials,Sports,Outdoor Gear,Yonex,3469.81,5109.0,Fitnation Logistics,468,32.08
+PROD-0316,Puma Sports Outdoor Gear Premium,Sports,Outdoor Gear,Puma Sports,6035.58,9659.0,Action Sports Distribution,476,37.51
+PROD-0317,Sony Audio & Headphones Plus,Electronics,Audio & Headphones,Sony,15159.43,17519.0,Apex Electronics Ltd,533,13.47
+PROD-0318,Tata Sampann Breakfast & Dairy Classic,Grocery,Breakfast & Dairy,Tata Sampann,272.36,319.0,Farmfresh Agro Supplies,263,14.62
+PROD-0319,Noise Audio & Headphones Prime,Electronics,Audio & Headphones,Noise,3397.76,4509.0,Zenith Tech Distribution,148,24.64
+PROD-0320,Apple Accessories Elite,Electronics,Accessories,Apple,5171.75,6899.0,Zenith Tech Distribution,311,25.04
+PROD-0321,Fabindia Men'S Wear Elite,Fashion,Men'S Wear,Fabindia,715.5,1449.0,Royal Garments Supply,370,50.62
+PROD-0322,Prestige Small Appliances Prime,Home & Kitchen,Small Appliances,Prestige,429.06,599.0,Homecraft Distributors,179,28.37
+PROD-0323,Mamaearth Haircare Classic,Beauty,Haircare,Mamaearth,1649.08,2789.0,Pureglow Cosmetics,316,40.87
+PROD-0324,Peter England Women'S Wear Essentials,Fashion,Women'S Wear,Peter England,539.12,1249.0,Royal Garments Supply,500,56.84
+PROD-0325,Raymond Footwear Elite,Fashion,Footwear,Raymond,2838.54,4469.0,Vibrant Textiles Corp,83,36.48
+PROD-0326,Titan Jewelry & Belts Max,Accessories,Jewelry & Belts,Titan,643.67,1549.0,Optima Accessories,196,58.45
+PROD-0327,Fabindia Footwear Elite,Fashion,Footwear,Fabindia,2110.94,3489.0,Vibrant Textiles Corp,530,39.5
+PROD-0328,Xiaomi Audio & Headphones Prime,Electronics,Audio & Headphones,Xiaomi,3664.77,4819.0,Metro Gadget Hub,76,23.95
+PROD-0329,Domyos Fitness Equipment Pro,Sports,Fitness Equipment,Domyos,1283.22,2019.0,Olympus Gear,125,36.44
+PROD-0330,Realme Smartwatches Prime,Electronics,Smartwatches,Realme,28005.49,36379.0,Metro Gadget Hub,507,23.02
+PROD-0331,Nykaa Fragrances Max,Beauty,Fragrances,Nykaa,272.93,759.0,Pureglow Cosmetics,192,64.04
+PROD-0332,Haldiram'S Breakfast & Dairy Pro,Grocery,Breakfast & Dairy,Haldiram'S,409.73,479.0,Farmfresh Agro Supplies,294,14.46
+PROD-0333,Nykaa Fragrances Prime,Beauty,Fragrances,Nykaa,533.58,1039.0,Divine Botanicals,284,48.64
+PROD-0334,Raymond Women'S Wear Classic,Fashion,Women'S Wear,Raymond,677.72,1369.0,Vibrant Textiles Corp,128,50.5
+PROD-0335,Prestige Small Appliances Series 5,Home & Kitchen,Small Appliances,Prestige,459.36,809.0,Homecraft Distributors,272,43.22
+PROD-0336,Bombay Dyeing Small Appliances Plus,Home & Kitchen,Small Appliances,Bombay Dyeing,277.28,429.0,Sterling Kitchenware,455,35.37
+PROD-0337,Catch Organic Foods Pro,Grocery,Organic Foods,Catch,584.76,679.0,Bharat Foodworks,487,13.88
+PROD-0338,Haldiram'S Breakfast & Dairy Classic,Grocery,Breakfast & Dairy,Haldiram'S,62.77,80.0,Bharat Foodworks,392,21.54
+PROD-0339,W Footwear Ultra,Fashion,Footwear,W,271.23,509.0,Vibrant Textiles Corp,145,46.71
+PROD-0340,W Men'S Wear Plus,Fashion,Men'S Wear,W,830.17,1909.0,Heritage Weaves,530,56.51
+PROD-0341,Rupa Publications Self-Help Ultra,Books,Self-Help,Rupa Publications,248.22,349.0,National Book Depot,63,28.88
+PROD-0342,Dell Smartphones Ultra,Electronics,Smartphones,Dell,781.54,989.0,Zenith Tech Distribution,391,20.98
+PROD-0343,Hp Audio & Headphones Classic,Electronics,Audio & Headphones,Hp,18020.61,22399.0,Zenith Tech Distribution,216,19.55
+PROD-0344,Oneplus Smartphones Plus,Electronics,Smartphones,Oneplus,7919.25,9269.0,Apex Electronics Ltd,172,14.56
+PROD-0345,Milton Bedding & Linen Premium,Home & Kitchen,Bedding & Linen,Milton,2811.09,4479.0,Urban Living Goods,518,37.24
+PROD-0346,Realme Accessories Max,Electronics,Accessories,Realme,18271.59,21399.0,Metro Gadget Hub,476,14.61
+PROD-0347,Domyos Cycling Plus,Sports,Cycling,Domyos,1159.62,1759.0,Fitnation Logistics,263,34.08
+PROD-0348,Oxford University Press Self-Help Classic,Books,Self-Help,Oxford University Press,502.8,649.0,Scholar Press Logistics,516,22.53
+PROD-0349,Allen Solly Women'S Wear Series 5,Fashion,Women'S Wear,Allen Solly,2805.33,4349.0,Vibrant Textiles Corp,566,35.49
+PROD-0350,Philips Bedding & Linen Essentials,Home & Kitchen,Bedding & Linen,Philips,2125.8,3569.0,Homecraft Distributors,377,40.44
+PROD-0351,Kiprun Fitness Equipment Pro,Sports,Fitness Equipment,Kiprun,2665.94,4359.0,Olympus Gear,83,38.84
+PROD-0352,Jaico Children'S Books Pro,Books,Children'S Books,Jaico,407.18,569.0,Global Book Importers,276,28.44
+PROD-0353,Bajaj Home Decor Prime,Home & Kitchen,Home Decor,Bajaj,1873.36,3439.0,Homecraft Distributors,250,45.53
+PROD-0354,W Footwear Classic,Fashion,Footwear,W,466.08,1169.0,Heritage Weaves,288,60.13
+PROD-0355,Maybelline Men'S Grooming Plus,Beauty,Men'S Grooming,Maybelline,145.02,329.0,Aura Personal Care,327,55.92
+PROD-0356,Titan Bags & Backpacks Max,Accessories,Bags & Backpacks,Titan,1431.37,3659.0,Vanguard Leather Works,542,60.88
+PROD-0357,Raymond Men'S Wear Essentials,Fashion,Men'S Wear,Raymond,2239.94,4409.0,Royal Garments Supply,532,49.2
+PROD-0358,Fortune Organic Foods Elite,Grocery,Organic Foods,Fortune,150.84,169.0,Farmfresh Agro Supplies,191,10.75
+PROD-0359,Milton Home Decor Elite,Home & Kitchen,Home Decor,Milton,478.29,829.0,Sterling Kitchenware,282,42.31
+PROD-0360,American Tourister Eyewear Series 5,Accessories,Eyewear,American Tourister,833.08,2369.0,Optima Accessories,230,64.83
+PROD-0361,Cello Storage & Org Max,Home & Kitchen,Storage & Org,Cello,2260.15,4099.0,Urban Living Goods,501,44.86
+PROD-0362,Puma Sports Racket Sports Essentials,Sports,Racket Sports,Puma Sports,1217.79,1949.0,Action Sports Distribution,580,37.52
+PROD-0363,Decathlon Fitness Equipment Elite,Sports,Fitness Equipment,Decathlon,446.36,759.0,Olympus Gear,261,41.19
+PROD-0364,Titan Travel Gear Series 5,Accessories,Travel Gear,Titan,459.82,1139.0,Optima Accessories,482,59.63
+PROD-0365,Puma Sports Racket Sports Ultra,Sports,Racket Sports,Puma Sports,2209.35,3449.0,Olympus Gear,566,35.94
+PROD-0366,Catch Cooking Essentials Series 5,Grocery,Cooking Essentials,Catch,222.27,249.0,Bharat Foodworks,541,10.73
+PROD-0367,Oxford University Press Non-Fiction Pro,Books,Non-Fiction,Oxford University Press,392.27,609.0,Scholar Press Logistics,328,35.59
+PROD-0368,Hp Audio & Headphones Classic,Electronics,Audio & Headphones,Hp,688.5,919.0,Metro Gadget Hub,505,25.08
+PROD-0369,Noise Smartphones Classic,Electronics,Smartphones,Noise,24165.35,31599.0,Zenith Tech Distribution,274,23.52
+PROD-0370,Nivia Cycling Max,Sports,Cycling,Nivia,301.48,489.0,Action Sports Distribution,568,38.35
+PROD-0371,Amul Cooking Essentials Ultra,Grocery,Cooking Essentials,Amul,203.24,239.0,Annapurna Fmcg Wholesale,150,14.96
+PROD-0372,Bajaj Small Appliances Essentials,Home & Kitchen,Small Appliances,Bajaj,248.59,459.0,Urban Living Goods,181,45.84
+PROD-0373,Harpercollins Children'S Books Premium,Books,Children'S Books,Harpercollins,816.09,1189.0,Global Book Importers,120,31.36
+PROD-0374,Decathlon Sports Apparel Series 5,Sports,Sports Apparel,Decathlon,387.77,629.0,Olympus Gear,526,38.35
+PROD-0375,Biotique Skincare Premium,Beauty,Skincare,Biotique,1044.22,2639.0,Pureglow Cosmetics,230,60.43
+PROD-0376,Tata Sampann Snacks & Beverages Premium,Grocery,Snacks & Beverages,Tata Sampann,779.05,979.0,Bharat Foodworks,585,20.42
+PROD-0377,Apple Laptops Max,Electronics,Laptops,Apple,29627.1,37269.0,Apex Electronics Ltd,60,20.5
+PROD-0378,Allen Solly Men'S Wear Plus,Fashion,Men'S Wear,Allen Solly,265.74,569.0,Vibrant Textiles Corp,194,53.3
+PROD-0379,Allen Solly Men'S Wear Series 5,Fashion,Men'S Wear,Allen Solly,745.03,1599.0,Vibrant Textiles Corp,410,53.41
+PROD-0380,Catch Cooking Essentials Max,Grocery,Cooking Essentials,Catch,726.65,859.0,Farmfresh Agro Supplies,61,15.41
+PROD-0381,W Men'S Wear Premium,Fashion,Men'S Wear,W,499.45,909.0,Heritage Weaves,586,45.06
+PROD-0382,Hp Accessories Prime,Electronics,Accessories,Hp,52600.28,65779.0,Metro Gadget Hub,139,20.03
+PROD-0383,Xiaomi Smartphones Ultra,Electronics,Smartphones,Xiaomi,3188.75,3969.0,Apex Electronics Ltd,208,19.66
+PROD-0384,Spaces Home Decor Ultra,Home & Kitchen,Home Decor,Spaces,206.1,389.0,Homecraft Distributors,78,47.02
+PROD-0385,Levi'S Winter Wear Ultra,Fashion,Winter Wear,Levi'S,326.64,519.0,Heritage Weaves,341,37.06
+PROD-0386,Mamaearth Haircare Series 5,Beauty,Haircare,Mamaearth,182.01,299.0,Divine Botanicals,63,39.13
+PROD-0387,Puma Ethnic Wear Series 5,Fashion,Ethnic Wear,Puma,1455.92,2349.0,Royal Garments Supply,156,38.02
+PROD-0388,Nike Women'S Wear Prime,Fashion,Women'S Wear,Nike,855.19,1409.0,Royal Garments Supply,338,39.31
+PROD-0389,Prestige Cookware Plus,Home & Kitchen,Cookware,Prestige,326.21,459.0,Homecraft Distributors,32,28.93
+PROD-0390,Spaces Bedding & Linen Pro,Home & Kitchen,Bedding & Linen,Spaces,539.01,769.0,Homecraft Distributors,393,29.91
+PROD-0391,Cello Home Decor Premium,Home & Kitchen,Home Decor,Cello,3726.47,6479.0,Urban Living Goods,403,42.48
+PROD-0392,Penguin Academic & Test Prep Pro,Books,Academic & Test Prep,Penguin,573.8,919.0,National Book Depot,62,37.56
+PROD-0393,Yonex Cycling Prime,Sports,Cycling,Yonex,1914.99,2829.0,Olympus Gear,447,32.31
+PROD-0394,Oneplus Audio & Headphones Pro,Electronics,Audio & Headphones,Oneplus,13391.24,18079.0,Apex Electronics Ltd,417,25.93
+PROD-0395,Milton Home Decor Max,Home & Kitchen,Home Decor,Milton,2185.23,3519.0,Homecraft Distributors,245,37.9
+PROD-0396,Prestige Home Decor Series 5,Home & Kitchen,Home Decor,Prestige,804.18,1299.0,Sterling Kitchenware,346,38.09
+PROD-0397,Raymond Men'S Wear Premium,Fashion,Men'S Wear,Raymond,1328.35,3209.0,Heritage Weaves,290,58.61
+PROD-0398,Dabur Breakfast & Dairy Series 5,Grocery,Breakfast & Dairy,Dabur,94.31,119.0,Annapurna Fmcg Wholesale,30,20.75
+PROD-0399,W Footwear Prime,Fashion,Footwear,W,489.62,1079.0,Vibrant Textiles Corp,444,54.62
+PROD-0400,Levi'S Kids Wear Series 5,Fashion,Kids Wear,Levi'S,312.45,569.0,Royal Garments Supply,159,45.09
+PROD-0401,Puma Sports Cycling Premium,Sports,Cycling,Puma Sports,623.46,999.0,Olympus Gear,593,37.59
+PROD-0402,Biotique Men'S Grooming Prime,Beauty,Men'S Grooming,Biotique,615.4,1629.0,Pureglow Cosmetics,485,62.22
+PROD-0403,Bajaj Cookware Prime,Home & Kitchen,Cookware,Bajaj,393.07,599.0,Urban Living Goods,586,34.38
+PROD-0404,Hawkins Storage & Org Series 5,Home & Kitchen,Storage & Org,Hawkins,2445.53,3409.0,Sterling Kitchenware,511,28.26
+PROD-0405,Fabindia Kids Wear Pro,Fashion,Kids Wear,Fabindia,1626.5,3469.0,Royal Garments Supply,394,53.11
+PROD-0406,Yonex Racket Sports Elite,Sports,Racket Sports,Yonex,3553.59,5989.0,Action Sports Distribution,479,40.66
+PROD-0407,Forest Essentials Skincare Pro,Beauty,Skincare,Forest Essentials,247.75,699.0,Aura Personal Care,257,64.56
+PROD-0408,Prestige Small Appliances Classic,Home & Kitchen,Small Appliances,Prestige,442.5,669.0,Homecraft Distributors,456,33.86
+PROD-0409,Yonex Outdoor Gear Series 5,Sports,Outdoor Gear,Yonex,6491.87,9089.0,Olympus Gear,587,28.57
+PROD-0410,Dell Laptops Ultra,Electronics,Laptops,Dell,32930.76,43799.0,Apex Electronics Ltd,95,24.81
+PROD-0411,Allen Solly Kids Wear Elite,Fashion,Kids Wear,Allen Solly,603.37,1279.0,Heritage Weaves,157,52.82
+PROD-0412,Peter England Men'S Wear Elite,Fashion,Men'S Wear,Peter England,2743.99,4419.0,Royal Garments Supply,537,37.9
+PROD-0413,Oneplus Audio & Headphones Essentials,Electronics,Audio & Headphones,Oneplus,1729.45,2059.0,Zenith Tech Distribution,482,16.01
+PROD-0414,Oneplus Audio & Headphones Classic,Electronics,Audio & Headphones,Oneplus,835.38,1079.0,Metro Gadget Hub,514,22.58
+PROD-0415,Dell Audio & Headphones Classic,Electronics,Audio & Headphones,Dell,42036.25,50739.0,Metro Gadget Hub,91,17.15
+PROD-0416,Nykaa Skincare Max,Beauty,Skincare,Nykaa,210.39,379.0,Aura Personal Care,427,44.49
+PROD-0417,Biotique Haircare Classic,Beauty,Haircare,Biotique,407.91,989.0,Aura Personal Care,181,58.76
+PROD-0418,Puma Sports Sports Apparel Elite,Sports,Sports Apparel,Puma Sports,2349.56,3559.0,Fitnation Logistics,539,33.98
+PROD-0419,Fortune Breakfast & Dairy Pro,Grocery,Breakfast & Dairy,Fortune,350.75,449.0,Farmfresh Agro Supplies,285,21.88
+PROD-0420,Rupa Publications Self-Help Max,Books,Self-Help,Rupa Publications,115.86,159.0,Global Book Importers,581,27.13
+PROD-0421,L'Oreal Makeup Essentials,Beauty,Makeup,L'Oreal,739.64,1569.0,Aura Personal Care,61,52.86
+PROD-0422,Yonex Outdoor Gear Classic,Sports,Outdoor Gear,Yonex,605.52,849.0,Olympus Gear,17,28.68
+PROD-0423,Apple Cameras Elite,Electronics,Cameras,Apple,8469.89,10809.0,Apex Electronics Ltd,523,21.64
+PROD-0424,Zudio Men'S Wear Pro,Fashion,Men'S Wear,Zudio,1455.62,2289.0,Vibrant Textiles Corp,79,36.41
+PROD-0425,Dell Accessories Elite,Electronics,Accessories,Dell,16038.36,19359.0,Apex Electronics Ltd,434,17.15
+PROD-0426,Lakme Makeup Classic,Beauty,Makeup,Lakme,841.56,2159.0,Aura Personal Care,231,61.02
+PROD-0427,Noise Laptops Classic,Electronics,Laptops,Noise,5657.6,7279.0,Zenith Tech Distribution,530,22.28
+PROD-0428,Puma Sports Sports Apparel Elite,Sports,Sports Apparel,Puma Sports,3816.96,5419.0,Olympus Gear,301,29.56
+PROD-0429,Samsung Smartphones Essentials,Electronics,Smartphones,Samsung,9050.28,11659.0,Apex Electronics Ltd,547,22.38
+PROD-0430,W Winter Wear Classic,Fashion,Winter Wear,W,296.25,649.0,Vibrant Textiles Corp,283,54.35
+PROD-0431,Peter England Winter Wear Max,Fashion,Winter Wear,Peter England,456.98,749.0,Vibrant Textiles Corp,154,38.99
+PROD-0432,Fabindia Ethnic Wear Series 5,Fashion,Ethnic Wear,Fabindia,1205.49,2179.0,Royal Garments Supply,397,44.68
+PROD-0433,Hp Smartphones Pro,Electronics,Smartphones,Hp,1039.93,1239.0,Apex Electronics Ltd,374,16.07
+PROD-0434,Lakme Men'S Grooming Max,Beauty,Men'S Grooming,Lakme,121.37,259.0,Pureglow Cosmetics,395,53.14
+PROD-0435,Realme Smartphones Essentials,Electronics,Smartphones,Realme,1787.96,2089.0,Apex Electronics Ltd,126,14.41
+PROD-0436,Oneplus Accessories Classic,Electronics,Accessories,Oneplus,13742.17,16859.0,Zenith Tech Distribution,452,18.49
+PROD-0437,Oxford University Press Fiction Elite,Books,Fiction,Oxford University Press,135.47,179.0,Global Book Importers,247,24.32
+PROD-0438,Allen Solly Ethnic Wear Classic,Fashion,Ethnic Wear,Allen Solly,1900.37,3349.0,Heritage Weaves,219,43.26
+PROD-0439,Allen Solly Men'S Wear Max,Fashion,Men'S Wear,Allen Solly,665.41,1059.0,Royal Garments Supply,455,37.17
+PROD-0440,Haldiram'S Breakfast & Dairy Pro,Grocery,Breakfast & Dairy,Haldiram'S,281.11,349.0,Bharat Foodworks,19,19.45
+PROD-0441,L'Oreal Fragrances Max,Beauty,Fragrances,L'Oreal,517.74,869.0,Divine Botanicals,531,40.42
+PROD-0442,L'Oreal Men'S Grooming Elite,Beauty,Men'S Grooming,L'Oreal,157.01,309.0,Divine Botanicals,315,49.19
+PROD-0443,Nykaa Haircare Series 5,Beauty,Haircare,Nykaa,813.09,1869.0,Divine Botanicals,494,56.5
+PROD-0444,Maybelline Fragrances Elite,Beauty,Fragrances,Maybelline,162.7,309.0,Aura Personal Care,149,47.35
+PROD-0445,Noise Cameras Essentials,Electronics,Cameras,Noise,15663.72,20979.0,Zenith Tech Distribution,133,25.34
+PROD-0446,Fabindia Ethnic Wear Series 5,Fashion,Ethnic Wear,Fabindia,322.87,619.0,Heritage Weaves,159,47.84
+PROD-0447,Harpercollins Academic & Test Prep Series 5,Books,Academic & Test Prep,Harpercollins,362.31,469.0,National Book Depot,99,22.75
+PROD-0448,Skybags Watches Max,Accessories,Watches,Skybags,2094.37,3719.0,Vanguard Leather Works,51,43.68
+PROD-0449,Haldiram'S Organic Foods Classic,Grocery,Organic Foods,Haldiram'S,221.54,259.0,Annapurna Fmcg Wholesale,375,14.46
+PROD-0450,Spaces Storage & Org Classic,Home & Kitchen,Storage & Org,Spaces,2945.81,5009.0,Homecraft Distributors,85,41.19
+PROD-0451,Noise Smartwatches Elite,Electronics,Smartwatches,Noise,53164.66,61869.0,Apex Electronics Ltd,463,14.07
+PROD-0452,Puma Sports Outdoor Gear Elite,Sports,Outdoor Gear,Puma Sports,2229.39,3129.0,Action Sports Distribution,170,28.75
+PROD-0453,Xiaomi Smartwatches Prime,Electronics,Smartwatches,Xiaomi,34179.3,41619.0,Apex Electronics Ltd,294,17.88
+PROD-0454,Biotique Men'S Grooming Prime,Beauty,Men'S Grooming,Biotique,355.41,839.0,Pureglow Cosmetics,473,57.64
+PROD-0455,Bajaj Small Appliances Ultra,Home & Kitchen,Small Appliances,Bajaj,569.0,879.0,Urban Living Goods,321,35.27
+PROD-0456,Arihant Children'S Books Series 5,Books,Children'S Books,Arihant,297.59,399.0,Global Book Importers,325,25.42
+PROD-0457,Haldiram'S Snacks & Beverages Prime,Grocery,Snacks & Beverages,Haldiram'S,695.9,779.0,Annapurna Fmcg Wholesale,320,10.67
+PROD-0458,Fastrack Jewelry & Belts Pro,Accessories,Jewelry & Belts,Fastrack,1337.3,2409.0,Vanguard Leather Works,353,44.49
+PROD-0459,Allen Solly Footwear Essentials,Fashion,Footwear,Allen Solly,1225.67,2789.0,Royal Garments Supply,298,56.05
+PROD-0460,Allen Solly Winter Wear Elite,Fashion,Winter Wear,Allen Solly,538.16,949.0,Royal Garments Supply,474,43.29
+PROD-0461,The Derma Co Men'S Grooming Max,Beauty,Men'S Grooming,The Derma Co,194.72,329.0,Aura Personal Care,387,40.81
+PROD-0462,Nykaa Fragrances Premium,Beauty,Fragrances,Nykaa,901.15,1859.0,Pureglow Cosmetics,202,51.53
+PROD-0463,Allen Solly Winter Wear Pro,Fashion,Winter Wear,Allen Solly,795.34,1459.0,Heritage Weaves,568,45.49
+PROD-0464,Skybags Eyewear Max,Accessories,Eyewear,Skybags,1651.75,3049.0,Prism Lifestyle Supply,58,45.83
+PROD-0465,Puma Ethnic Wear Pro,Fashion,Ethnic Wear,Puma,934.59,1929.0,Heritage Weaves,119,51.55
+PROD-0466,Hawkins Small Appliances Max,Home & Kitchen,Small Appliances,Hawkins,2627.9,4639.0,Homecraft Distributors,488,43.35
+PROD-0467,Spaces Storage & Org Premium,Home & Kitchen,Storage & Org,Spaces,3042.07,5339.0,Homecraft Distributors,34,43.02
+PROD-0468,Cosco Sports Apparel Essentials,Sports,Sports Apparel,Cosco,7119.64,10219.0,Fitnation Logistics,413,30.33
+PROD-0469,Biba Men'S Wear Pro,Fashion,Men'S Wear,Biba,2008.38,4549.0,Vibrant Textiles Corp,430,55.85
+PROD-0470,Haldiram'S Breakfast & Dairy Elite,Grocery,Breakfast & Dairy,Haldiram'S,57.73,70.0,Annapurna Fmcg Wholesale,289,17.53
+PROD-0471,Oneplus Accessories Classic,Electronics,Accessories,Oneplus,6761.72,7879.0,Metro Gadget Hub,15,14.18
+PROD-0472,Apple Smartphones Essentials,Electronics,Smartphones,Apple,672.21,849.0,Apex Electronics Ltd,336,20.82
+PROD-0473,Nike Kids Wear Pro,Fashion,Kids Wear,Nike,365.28,649.0,Vibrant Textiles Corp,176,43.72
+PROD-0474,Samsung Smartwatches Elite,Electronics,Smartwatches,Samsung,48073.24,57559.0,Apex Electronics Ltd,128,16.48
+PROD-0475,Levi'S Footwear Classic,Fashion,Footwear,Levi'S,1914.2,4029.0,Heritage Weaves,370,52.49
+PROD-0476,Cosco Racket Sports Premium,Sports,Racket Sports,Cosco,1754.62,3129.0,Fitnation Logistics,362,43.92
+PROD-0477,Peter England Men'S Wear Pro,Fashion,Men'S Wear,Peter England,2485.32,5839.0,Royal Garments Supply,519,57.44
+PROD-0478,Forest Essentials Skincare Plus,Beauty,Skincare,Forest Essentials,591.16,1329.0,Divine Botanicals,147,55.52
+PROD-0479,Realme Smartwatches Pro,Electronics,Smartwatches,Realme,1601.85,2149.0,Metro Gadget Hub,377,25.46
+PROD-0480,Cello Storage & Org Pro,Home & Kitchen,Storage & Org,Cello,663.52,1169.0,Urban Living Goods,251,43.24
+PROD-0481,Prestige Cookware Prime,Home & Kitchen,Cookware,Prestige,211.35,369.0,Homecraft Distributors,309,42.72
+PROD-0482,Nivia Racket Sports Pro,Sports,Racket Sports,Nivia,306.71,549.0,Fitnation Logistics,223,44.13
+PROD-0483,Zudio Winter Wear Pro,Fashion,Winter Wear,Zudio,965.05,1559.0,Vibrant Textiles Corp,299,38.1
+PROD-0484,Nykaa Makeup Plus,Beauty,Makeup,Nykaa,303.77,579.0,Pureglow Cosmetics,453,47.54
+PROD-0485,Arihant Fiction Ultra,Books,Fiction,Arihant,97.85,150.0,Scholar Press Logistics,80,34.77
+PROD-0486,L'Oreal Skincare Premium,Beauty,Skincare,L'Oreal,1548.0,3359.0,Divine Botanicals,111,53.91
+PROD-0487,Sony Laptops Premium,Electronics,Laptops,Sony,763.17,1009.0,Metro Gadget Hub,193,24.36
+PROD-0488,Rupa Publications Children'S Books Plus,Books,Children'S Books,Rupa Publications,210.46,309.0,National Book Depot,397,31.89
+PROD-0489,Cello Storage & Org Pro,Home & Kitchen,Storage & Org,Cello,4054.03,7649.0,Homecraft Distributors,385,47.0
+PROD-0490,Titan Jewelry & Belts Pro,Accessories,Jewelry & Belts,Titan,1453.48,4209.0,Optima Accessories,432,65.47
+PROD-0491,Zudio Ethnic Wear Pro,Fashion,Ethnic Wear,Zudio,1806.46,3939.0,Heritage Weaves,34,54.14
+PROD-0492,Lenskart Jewelry & Belts Series 5,Accessories,Jewelry & Belts,Lenskart,927.03,1609.0,Prism Lifestyle Supply,75,42.38
+PROD-0493,Biotique Skincare Essentials,Beauty,Skincare,Biotique,795.37,1419.0,Divine Botanicals,503,43.95
+PROD-0494,Allen Solly Footwear Plus,Fashion,Footwear,Allen Solly,1212.72,2209.0,Heritage Weaves,505,45.1
+PROD-0495,Puma Kids Wear Classic,Fashion,Kids Wear,Puma,272.84,689.0,Heritage Weaves,238,60.4
+PROD-0496,Puma Sports Sports Apparel Ultra,Sports,Sports Apparel,Puma Sports,178.47,299.0,Fitnation Logistics,398,40.31
+PROD-0497,Decathlon Sports Apparel Prime,Sports,Sports Apparel,Decathlon,208.91,309.0,Action Sports Distribution,517,32.39
+PROD-0498,Biotique Fragrances Elite,Beauty,Fragrances,Biotique,298.85,729.0,Pureglow Cosmetics,350,59.01
+PROD-0499,Bajaj Cookware Elite,Home & Kitchen,Cookware,Bajaj,298.56,569.0,Homecraft Distributors,26,47.53
+PROD-0500,Peter England Men'S Wear Prime,Fashion,Men'S Wear,Peter England,1815.09,2969.0,Vibrant Textiles Corp,335,38.87
+PROD-0501,Biba Footwear Classic,Fashion,Footwear,Biba,896.55,1499.0,Royal Garments Supply,307,40.19
+PROD-0502,Bombay Dyeing Cookware Ultra,Home & Kitchen,Cookware,Bombay Dyeing,352.15,579.0,Urban Living Goods,203,39.18
+PROD-0503,Lakme Men'S Grooming Classic,Beauty,Men'S Grooming,Lakme,91.97,239.0,Divine Botanicals,168,61.52
+PROD-0504,Boat Laptops Elite,Electronics,Laptops,Boat,1755.14,2229.0,Zenith Tech Distribution,112,21.26
+PROD-0505,Prestige Cookware Pro,Home & Kitchen,Cookware,Prestige,1193.62,1719.0,Urban Living Goods,600,30.56
+PROD-0506,Oxford University Press Fiction Pro,Books,Fiction,Oxford University Press,408.74,539.0,National Book Depot,379,24.17
+PROD-0507,Allen Solly Women'S Wear Series 5,Fashion,Women'S Wear,Allen Solly,1856.58,3739.0,Heritage Weaves,584,50.35
+PROD-0508,Xiaomi Smartwatches Plus,Electronics,Smartwatches,Xiaomi,3679.35,4349.0,Zenith Tech Distribution,29,15.4
+PROD-0509,Hawkins Small Appliances Prime,Home & Kitchen,Small Appliances,Hawkins,3264.34,5159.0,Homecraft Distributors,417,36.73
+PROD-0510,Bajaj Bedding & Linen Premium,Home & Kitchen,Bedding & Linen,Bajaj,3797.31,6279.0,Homecraft Distributors,21,39.52
+PROD-0511,Cello Home Decor Elite,Home & Kitchen,Home Decor,Cello,484.15,809.0,Sterling Kitchenware,591,40.15
+PROD-0512,Forest Essentials Men'S Grooming Premium,Beauty,Men'S Grooming,Forest Essentials,218.21,619.0,Aura Personal Care,205,64.75
+PROD-0513,Aashirvaad Staples & Grains Premium,Grocery,Staples & Grains,Aashirvaad,558.96,669.0,Bharat Foodworks,448,16.45
+PROD-0514,Philips Home Decor Pro,Home & Kitchen,Home Decor,Philips,414.42,629.0,Sterling Kitchenware,251,34.11
+PROD-0515,Yonex Sports Apparel Classic,Sports,Sports Apparel,Yonex,917.1,1599.0,Olympus Gear,23,42.65
+PROD-0516,Apple Accessories Elite,Electronics,Accessories,Apple,6354.08,8049.0,Zenith Tech Distribution,377,21.06
+PROD-0517,Philips Storage & Org Ultra,Home & Kitchen,Storage & Org,Philips,3116.34,5969.0,Homecraft Distributors,488,47.79
+PROD-0518,Samsung Smartwatches Premium,Electronics,Smartwatches,Samsung,1240.06,1439.0,Metro Gadget Hub,144,13.82
+PROD-0519,Forest Essentials Skincare Max,Beauty,Skincare,Forest Essentials,244.34,579.0,Pureglow Cosmetics,367,57.8
+PROD-0520,Levi'S Women'S Wear Series 5,Fashion,Women'S Wear,Levi'S,1051.85,2379.0,Heritage Weaves,21,55.79
+PROD-0521,Bajaj Small Appliances Classic,Home & Kitchen,Small Appliances,Bajaj,1375.91,1959.0,Sterling Kitchenware,116,29.76
+PROD-0522,Zudio Winter Wear Classic,Fashion,Winter Wear,Zudio,1018.49,1939.0,Heritage Weaves,84,47.47
+PROD-0523,Fortune Organic Foods Premium,Grocery,Organic Foods,Fortune,888.72,1109.0,Bharat Foodworks,515,19.86
+PROD-0524,Allen Solly Winter Wear Elite,Fashion,Winter Wear,Allen Solly,1612.97,2969.0,Heritage Weaves,594,45.67
+PROD-0525,Raymond Men'S Wear Max,Fashion,Men'S Wear,Raymond,737.45,1169.0,Vibrant Textiles Corp,530,36.92
+PROD-0526,Levi'S Ethnic Wear Elite,Fashion,Ethnic Wear,Levi'S,615.08,1569.0,Heritage Weaves,355,60.8
+PROD-0527,W Kids Wear Premium,Fashion,Kids Wear,W,2769.87,4709.0,Vibrant Textiles Corp,335,41.18
+PROD-0528,Hp Cameras Essentials,Electronics,Cameras,Hp,6631.77,8439.0,Metro Gadget Hub,186,21.42
+PROD-0529,Oneplus Accessories Series 5,Electronics,Accessories,Oneplus,1778.51,2179.0,Zenith Tech Distribution,544,18.38
+PROD-0530,Allen Solly Men'S Wear Plus,Fashion,Men'S Wear,Allen Solly,1504.73,2939.0,Royal Garments Supply,505,48.8
+PROD-0531,Realme Cameras Max,Electronics,Cameras,Realme,38970.4,46449.0,Apex Electronics Ltd,575,16.1
+PROD-0532,Puma Sports Cycling Series 5,Sports,Cycling,Puma Sports,2964.64,5319.0,Action Sports Distribution,506,44.26
+PROD-0533,Milton Small Appliances Ultra,Home & Kitchen,Small Appliances,Milton,1631.91,2499.0,Sterling Kitchenware,69,34.7
+PROD-0534,Nykaa Skincare Essentials,Beauty,Skincare,Nykaa,375.87,749.0,Pureglow Cosmetics,181,49.82
+PROD-0535,Penguin Fiction Series 5,Books,Fiction,Penguin,107.97,169.0,Global Book Importers,233,36.11
+PROD-0536,Rupa Publications Children'S Books Classic,Books,Children'S Books,Rupa Publications,300.97,429.0,Scholar Press Logistics,249,29.84
+PROD-0537,Biba Women'S Wear Ultra,Fashion,Women'S Wear,Biba,3663.49,5909.0,Vibrant Textiles Corp,105,38.0
+PROD-0538,L'Oreal Makeup Ultra,Beauty,Makeup,L'Oreal,518.13,1409.0,Aura Personal Care,231,63.23
+PROD-0539,Kiprun Sports Apparel Max,Sports,Sports Apparel,Kiprun,2339.05,3219.0,Olympus Gear,82,27.34
+PROD-0540,Nike Ethnic Wear Premium,Fashion,Ethnic Wear,Nike,288.04,699.0,Heritage Weaves,215,58.79
+PROD-0541,Kiprun Fitness Equipment Pro,Sports,Fitness Equipment,Kiprun,3035.17,4899.0,Action Sports Distribution,145,38.05
+PROD-0542,Bajaj Cookware Ultra,Home & Kitchen,Cookware,Bajaj,365.62,559.0,Homecraft Distributors,167,34.59
+PROD-0543,Apple Laptops Essentials,Electronics,Laptops,Apple,18445.43,21509.0,Apex Electronics Ltd,524,14.24
+PROD-0544,Domyos Outdoor Gear Max,Sports,Outdoor Gear,Domyos,2533.18,3849.0,Action Sports Distribution,264,34.19
+PROD-0545,Boat Audio & Headphones Classic,Electronics,Audio & Headphones,Boat,2788.69,3339.0,Apex Electronics Ltd,530,16.48
+PROD-0546,Yonex Fitness Equipment Pro,Sports,Fitness Equipment,Yonex,268.14,459.0,Fitnation Logistics,431,41.58
+PROD-0547,Yonex Outdoor Gear Pro,Sports,Outdoor Gear,Yonex,357.03,589.0,Action Sports Distribution,73,39.38
+PROD-0548,Maybelline Makeup Essentials,Beauty,Makeup,Maybelline,966.71,1699.0,Aura Personal Care,485,43.1
+PROD-0549,Dell Audio & Headphones Max,Electronics,Audio & Headphones,Dell,1938.51,2339.0,Metro Gadget Hub,565,17.12
+PROD-0550,Harpercollins Non-Fiction Pro,Books,Non-Fiction,Harpercollins,441.72,699.0,Global Book Importers,180,36.81

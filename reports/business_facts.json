@@ -1,0 +1,90 @@
+{
+    "macro": {
+        "total_revenue_inr": 134770139.2,
+        "total_profit_inr": 38585429.31,
+        "total_cost_inr": 96184709.89,
+        "delivered_revenue_inr": 115254327.25,
+        "delivered_profit_inr": 32905254.99,
+        "total_orders": 52500,
+        "total_customers": 5156,
+        "aov_inr": 2567.0502704761902,
+        "profit_margin_pct": 28.63054793817413,
+        "return_rate_pct": 7.001904761904762,
+        "returned_orders_count": 3676,
+        "returned_value_inr": 10930592.05,
+        "cancelled_orders_count": 3210,
+        "cancellation_rate_pct": 6.114285714285715
+    },
+    "categories": {
+        "highest_revenue": {
+            "name": "Electronics",
+            "revenue_inr": 54149106.15,
+            "share_pct": 40.17886044448042,
+            "margin_pct": 13.245214685782955
+        },
+        "highest_margin": {
+            "name": "Accessories",
+            "margin_pct": 50.00779519997421,
+            "revenue_inr": 4716620.5
+        },
+        "lowest_margin": {
+            "name": "Grocery",
+            "margin_pct": 8.718635549687349,
+            "revenue_inr": 2893217.85
+        }
+    },
+    "regions": {
+        "top_region": {
+            "name": "South",
+            "revenue_inr": 43717317.7,
+            "share_pct": 32.43843032255324,
+            "margin_pct": 29.10454842475388
+        },
+        "lowest_region": {
+            "name": "Central",
+            "revenue_inr": 7048148.2,
+            "share_pct": 5.229755079157774,
+            "margin_pct": 28.356179286922483
+        }
+    },
+    "states": {
+        "top_state": {
+            "name": "Maharashtra",
+            "revenue_inr": 27250508.3,
+            "profit_inr": 7978504.06,
+            "share_pct": 20.219989726032725
+        },
+        "lowest_state": {
+            "name": "Assam",
+            "revenue_inr": 1535142.65,
+            "share_pct": 1.1390821877254542
+        }
+    },
+    "rfm": {
+        "champions": {
+            "count": 945,
+            "revenue_inr": 48259844.15,
+            "revenue_share_pct": 35.80900371289369
+        },
+        "at_risk": {
+            "count": 584,
+            "revenue_inr": 20280404.7,
+            "revenue_share_pct": 15.048144062464544
+        }
+    },
+    "returns": {
+        "top_reason": {
+            "reason": "Size Issue",
+            "count": 768,
+            "pct_of_returns": 20.89227421109902,
+            "refund_inr": 1582834.55
+        }
+    },
+    "payments": {
+        "top_method": {
+            "method": "UPI",
+            "volume_inr": 56683445.45,
+            "share_pct": 42.05935067402528
+        }
+    }
+}
